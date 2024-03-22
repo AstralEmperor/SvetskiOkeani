@@ -1,0 +1,24 @@
+@media only screen and (max-width:768px){
+    .oNama__ImgContainer{
+        width:100%;
+    }
+    .oNama__text-wrap{
+        width:100%;
+    }
+    .oNama__container{
+        flex-direction:column;
+            gap:5rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .oNama__ImgContainer{
+        width:100%;
+    }
+    .oNama__text-wrap{
+        width:100%;
+    }
+    .oNama__container{
+        flex-direction:column;
+        gap:5rem;
+    }
+}

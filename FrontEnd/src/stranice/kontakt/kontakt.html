@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/header.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/headerMquery.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/footer/footer.css">
+    <link rel="stylesheet" href="kontakt.css">
+    <title>Okeani</title>
+</head>
+<body id="body">
+        <!--Navigation-->
+        <nav class="navigacija">
+            <div class="navigacija__container container">
+            <button type="button" class="navigacija__toggleBtn" title="hamburgerButton">
+                <span class="navigacija__spanLine"></span>
+                <span class="navigacija__spanLine"></span>
+                <span class="navigacija__spanLine"></span>
+            </button>
+            <img class="navigacija__icon" src="/FrontEnd/slike/Ikonica.png" alt="icon.png">
+         <div class="navigacija__wrap">
+            <ul class="navigacija__list navigacija__hideNav">
+                <li class="navigacija__list-item"><a class="navigacija__list-link" href="../../../../index.html">Početna</a></li>
+                <li class="navigacija__list-item"><a class="navigacija__list-link" href="#/">Okeani</a><img tabindex="0" aria-expanded ="false" tabindex="0" class="navigacija__link-dugme" src="/FrontEnd/slike/strelica-dole.png" alt="strelica-dole.png"></li>
+                    <li class="sekundarnaNavigacija" style="display:none">
+                        <ul>
+                            <li class=""><a href="">Atlantski okean</a></li>
+                            <li class=""><a href="">Tihi okean</a></li>
+                            <li class=""><a href="">Indijski okean</a></li>
+                            <li class=""><a href="">Arktički okean</a></li>
+                            <li class=""><a href="">Antarktički okean</a></li>
+                        </ul>
+                    </li>
+                <li class="navigacija__list-item"><a class="navigacija__list-link" href="#/">O nama</a></li>
+                <li class="navigacija__list-item"><a class="navigacija__list-link" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+ <section class="kontakt">
+    <form class="kontakt__forma" method="POST" action="#">
+        <div class="logo-wrapper">
+            <img src="/FrontEnd/slike/Ikonica.png" alt="logo.png">
+        </div>
+        <h1>Kontaktirajte nas!</h1>
+    <div class="kontakt__inputPoljaILabel">
+        <div class="kontakt__inputContainer">
+            <label for="Ime">Ime*</label>
+            <input name="Ime" id="ime" type="text" pattern="[A-Za-z]{1,20}" maxlength="20" placeholder="Ime" required>
+        </div>
+        <div class="kontakt__inputContainer">
+            <label for="Prezime">Prezime*</label>
+            <input name="Prezime" id="prezime" type="text" pattern="[A-Za-z]{1,20}" maxlength="20" placeholder="Prezime" required>
+        </div>
+        <div class="kontakt__inputContainer">
+            <label for="Email">Email*</label>
+            <input name="Email" id="email" type="email" placeholder="Email adresa" required>
+        </div>
+        <div class="kontakt__inputContainer kontakt__inputContainer--poruka">
+            <label for="Poruka">Poruka*</label>
+            <textarea id="poruka" name="Poruka" required placeholder="Ostavite nam poruku"></textarea>
+        </div>
+    </div>
+        <button type="submit" id="formaDugme" class="dugme">Pošalji</button>
+        <div>
+            <p>Ili nam pišite putem:</p>
+        </div>
+        <div class="kontakt__ikonice">
+         <div class="kontakt__ikonica">
+            <img src="/FrontEnd/slike/facebook.png" alt="facebook.png">
+         </div>
+        <div class="kontakt__ikonica kontakt__ikonica--email">
+            <img src="/FrontEnd/slike/email-icon.png" alt="email-icon.png">
+        </div>
+      </div>
+    </form>
+ </section>
+ <footer class="footer">
+    <div>
+        <p>@CopyRight rights reserved || Marko Kovačević</p>
+    </div>
+</footer>
+</body>
+<script src="kontakt.js"></script>
+<script src="/FrontEnd/src/zajednicko/navigacija/header.js"></script>
+</html>

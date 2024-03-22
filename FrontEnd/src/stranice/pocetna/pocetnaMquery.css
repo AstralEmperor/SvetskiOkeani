@@ -1,0 +1,19 @@
+@media only screen and (max-width:768px){
+    .novosti__slikaContainer{
+        width:100%;
+    }
+    .novosti__sveKarteContainer{
+        display:flex;
+        justify-content:center;
+}
+  }
+  @media only screen and (max-width:320px){
+    .novosti__slikaContainer{
+        width:100%;
+    }
+    .novosti__sveKarteContainer{
+        display:flex;
+        justify-content:center;
+        gap:3rem;
+}
+  }

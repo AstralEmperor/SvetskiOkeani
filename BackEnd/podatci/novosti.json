@@ -1,0 +1,24 @@
+{
+    "novosti":[
+    {
+        "naslov":"Više od 100 novih vrsta",
+        "slika":"sipa.jpg",
+        "opis":"Više od 100 novih vrsta pronađeno u okeanu blizu Čileanskih planina"
+    },
+    {
+        "naslov":"Ostrvo đubreta",
+        "slika":"ostrvoDjubreta.webp",
+        "opis":"14 miliona tona plastike završava u okeanu svake godine predstavljaju veliku pretnju za okeansu ekologiju"
+    },
+    {
+        "naslov":"Lov na krabe",
+        "slika":"lovNaKrabe.jpg",
+        "opis":"Lov na krabe u vodama uz obalu..."
+    },
+    {
+        "naslov":"Globalno zagrevanje",
+        "slika":"topljenjeLeda.webp",
+        "opis":"Topljenje leda na Arktiku se ubrzalo prethodnih godina stručnjaci nalažu"
+    }
+  ]
+}

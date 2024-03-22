@@ -1,0 +1,90 @@
+.kontakt{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding-block:12rem;
+    background-image:url('/FrontEnd/slike/okean1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.kontakt__forma{
+    width:min(35rem,100%);
+    padding-block:2rem;
+    padding-inline:3rem;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    justify-content:center;
+    background-color:var(--form-color);
+}
+.kontakt__inputPoljaILabel{
+    display:flex;
+    flex-direction:column;gap:2rem;
+}
+h1{
+    font-size:var(--title-size);
+    margin-bottom:2rem;
+    margin-top:1rem;
+}
+p{
+    font-size:1.15rem;
+}
+input{
+    padding-inline:0.25em;
+    padding-block:0.35em;
+    border-radius:5px;
+    width:100%;
+}
+label{
+    font-size:var(--label-size);
+    color:var(--label-color);
+    width:max-content;
+    text-align:left;
+}
+.logo-wrapper{
+    width:12rem;
+    height:12rem;
+    margin-bottom:2rem;
+}
+.logo-wrapper > img{
+    width: 100%;
+    height:100%;
+}
+.kontakt__inputContainer{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+.kontakt__inputContainer--poruka{
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    align-items:self-start;
+    width:100%;
+}
+#poruka{
+    width:100%;
+    height:10rem;
+    padding:0.5rem 1rem;
+}
+.kontakt__ikonice{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+.kontakt__ikonica{
+    width:2.5rem;
+    height:2.5rem;
+}
+.kontakt__ikonica--email{
+    width:2.5rem;
+    height:3.25rem;
+}
+.kontakt__ikonica > img{
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/FrontEnd/src/stranice/pocetna/pocetna.css">
+    <link rel="stylesheet" href="/FrontEnd/src/stranice/pocetna/pocetnaMquery.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/header.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/headerMquery.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/footer/footer.css">
+    <title>Okeani</title>
+</head>
+<body id="body">
+    <!--Navigation-->
+    <nav class="navigacija">
+        <div class="navigacija__container container">
+        <button type="button" class="navigacija__toggleBtn" title="hamburgerButton">
+            <span class="navigacija__spanLine"></span>
+            <span class="navigacija__spanLine"></span>
+            <span class="navigacija__spanLine"></span>
+        </button>
+        <img class="navigacija__icon" src="/FrontEnd/slike/Ikonica.png" alt="icon.png">
+     <div class="navigacija__wrap">
+        <ul class="navigacija__list navigacija__hideNav">
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="/index.html">Početna</a></li>
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="#/">Okeani</a><img tabindex="0" aria-expanded ="false" tabindex="0" class="navigacija__link-dugme" src="/FrontEnd/slike/strelica-dole.png" alt="strelica-dole.png"></li>
+                <li class="sekundarnaNavigacija" style="display:none">
+                    <ul>
+                        <li class=""><a href="">Atlantski okean</a></li>
+                        <li class=""><a href="">Tihi okean</a></li>
+                        <li class=""><a href="">Indijski okean</a></li>
+                        <li class=""><a href="">Arktički okean</a></li>
+                        <li class=""><a href="">Antarktički okean</a></li>
+                    </ul>
+                </li>
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="#/">O nama</a></li>
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="/FrontEnd/src/stranice/kontakt/kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<!--Sekcija Naslov-->
+<section class="naslov">
+    <div class="naslov__dugmadOmotac">
+         <button type="button" class="naslov__dugme naslov__dugme--nazad je-sakriveno"><span class="material-icons strelica-nazad je-sakriveno">arrow_backward</span></button>
+         <button type="button" class="naslov__dugme naslov__dugme--napred"><span class="material-icons strelica-napred">arrow_forward</span></button>
+   </div>
+ <div class="naslov__carousel">
+    <img class="naslov__img trenutni-slajd" src="./FrontEnd/slike/okean1.jpg" alt="okean-slika1.jpg">
+    <img loading="lazy" class="naslov__img" src="./FrontEnd/slike/okean2.jpg" alt="okean-slika2.jpg">
+    <img loading="lazy" class="naslov__img" src="./FrontEnd/slike/okean3.jpg" alt="okean-slika3.jpg">
+    <img loading="lazy" class="naslov__img" src="./FrontEnd/slike/okean4.webp" alt="okean-slika4.webp">
+ </div>
+    <div class="naslov__container">
+        <div class="container">      
+        <div class="naslov__text-dugme">
+            <p class="naslov__text">"U okeanu života, svaki naš pokret je umetnost"</p>
+        </div>
+        <div class="naslov__ul">
+            <button aria-label="prikaži sliku 1" class="naslov__carousel-lista trenutni-slajd"></button>
+            <button aria-label="prikaži sliku 2" class="naslov__carousel-lista"></button>
+            <button aria-label="prikaži sliku 3" class="naslov__carousel-lista"></button>
+            <button aria-label="prikaži sliku 4" class="naslov__carousel-lista"></button>
+        </div>
+     </div>
+   </div>
+</section>
+<section class="novosti">
+    <div class="container">
+      <div class="novosti__sveKarteContainer">
+        <!-- Novosti/Vesti se ispisuju ovde -->
+      </div>
+   </div>
+</section>
+    <footer class="footer">
+        <div>
+            <p>@CopyRight rights reserved || Marko Kovačević</p>
+        </div>
+    </footer>
+<script src="/FrontEnd/src/stranice/pocetna/pocetna.js" type="module"></script>
+<script src="/FrontEnd/src/zajednicko/navigacija/header.js"></script>
+</body>
+</html>

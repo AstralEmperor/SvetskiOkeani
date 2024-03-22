@@ -1,0 +1,12 @@
+.footer{
+    display:flex;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    color:var(--text-blured);
+    background:rgb(43,53,66);
+    background:linear-gradient(90deg, rgba(35, 43, 54,0.5) 0%, rgba(20, 43, 49,0.5) 0%, rgba(33, 20, 54, 0.2) 100%);
+    padding-block:2rem;
+    font-size:1.75rem;
+    bottom:0;
+}

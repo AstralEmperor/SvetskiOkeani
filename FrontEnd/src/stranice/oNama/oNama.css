@@ -1,0 +1,48 @@
+.oNama{
+    min-height:65rem;
+    background-color:var(--lightblack);
+    color:var(--lightyellow);
+}
+
+.oNama__container{
+        display:flex;
+        padding-top:7rem;
+        gap:20%;
+}
+    
+.oNama__text-omotac{
+        margin-top:10rem;
+        width:40%;
+}
+
+.oNama__h2{
+        color:var(--blue);
+        font-size:50px;
+        margin-bottom:3rem;
+}
+
+.oNama__text{
+        color:var(--white);
+        font-size:3rem;
+        margin-bottom:3rem;
+}
+
+.oNama__ImgContainer{
+        width:40%;
+        height:500px;
+        overflow:hidden;
+        border-radius:30%;
+}      
+
+.oNama__img{
+        object-fit:contain;
+        mix-blend-mode: luminosity;
+        -webkit-filter: contrast(1.25);
+        filter: contrast(1.25);
+        height:100%;
+        width:100%;
+}
+.oNama__dugme{
+    background: linear-gradient(90deg, rgba(62,55,195,1) 0%, rgba(9,59,121,1) 0%, rgba(0,212,255,1) 100%);
+    color:var(--white);
+}
