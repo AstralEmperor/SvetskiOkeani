@@ -8,7 +8,7 @@
 --body:#4E51A4;
 --navText:rgb(255, 255, 255);
 --newsCardText:rgba(224, 224, 224, 0.849);
---secondNavBg:rgb(30, 13, 71);
+--secondNavBg:rgb(48, 51, 142);
 --specialHyperLink:rgb(216, 153, 81);
 --label-color:rgb(208, 145, 72);
 --white:rgb(255, 255, 255);
@@ -69,6 +69,11 @@ a{
   text-decoration:none;
   color:var(--navText);
   cursor:pointer;
+  transition:all 250ms ease-in-out;
+}
+a:hover{
+  color:var(--specialHyperLink);
+  transition:all 250ms ease-in-out;
 }
 li{
   list-style:none;

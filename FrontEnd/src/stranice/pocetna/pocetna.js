@@ -107,12 +107,14 @@ async function ispisiVesti(vesti){
             <div class="novosti__slikaContainer">
                 <img loading="lazy" src="./FrontEnd/slike/${vest.slika}" alt="sipa.jpg">
             </div>
+          <div class="novosti__donjiDeo">
             <div class="novosti__tekstContainer">
                 <p class="novosti__text">${vest.opis}</p>
             </div>
             <div class="novosti__linkContainer">
                 <a href="">Saznajte više -></a>
             </div>
+          </div>
         </div>`
         }
         novostiContainer.innerHTML = karta;
