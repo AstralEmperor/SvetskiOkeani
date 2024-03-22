@@ -124,6 +124,11 @@
         padding-block:0.5rem;
         min-width:30rem;
         max-width:30rem;
+        transition:all 300 ease-in-out;
+}
+.novosti__karta:hover{
+        transform: scale(1.1);
+        transition:all 300 ease-in-out;
 }
 .novosti__text{
         font-size:var(--newsCardText-font);
@@ -157,9 +162,9 @@
         font-size:var(--specialHyperLink-font);
 }
 .novosti__donjiDeo{
-    display:flex;
-    flex-direction: column;
-    justify-content:space-between;
-    height:100%;
-    padding-bottom:1rem;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        height:100%;
+        padding-bottom:1rem;
 }

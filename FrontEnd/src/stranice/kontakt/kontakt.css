@@ -80,6 +80,14 @@ label{
     width:2.5rem;
     height:2.5rem;
 }
+.kontakt__ikonica > a{
+    width:100%;
+    height:100%;
+}
+.kontakt__ikonica:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}
 .kontakt__ikonica--email{
     width:2.5rem;
     height:3.25rem;
