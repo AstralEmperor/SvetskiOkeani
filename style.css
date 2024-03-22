@@ -10,6 +10,8 @@
 --newsCardText:rgba(224, 224, 224, 0.849);
 --secondNavBg:rgb(48, 51, 142);
 --specialHyperLink:rgb(216, 153, 81);
+--button-hover-bg:rgb(216, 153, 81);
+--button-hover-text:rgb(255, 255, 255);
 --label-color:rgb(208, 145, 72);
 --white:rgb(255, 255, 255);
 --shadow:rgb(43, 53, 66);
@@ -62,8 +64,14 @@ body:focus-visible{
   display:flex;
   align-items:center;
   justify-content:center;
-  cursor:pointer;
   border:1px solid var(--specialHyperLink);
+  transition:all 250 ease-in-out;
+}
+.dugme:hover{
+  cursor:pointer;
+  background-color:var(--button-hover-bg);
+  color:var(--button-hover-text);
+  transition:all 250 ease-in-out;
 }
 a{
   text-decoration:none;
