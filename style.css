@@ -31,7 +31,8 @@
 --specialHyperLink-font:1.5rem;
 --newsCardText-font:1.25rem;
 --label-size:1.5rem;
---title-size:2.25rem;
+--title-size:3rem;
+--subTitle-size:2rem;
 }
 html {
   /* Objašnjenje - 62.5% => 10px = 1rem;  */
@@ -42,7 +43,7 @@ html {
   background:  linear-gradient(90deg, rgba(43,53,66,1) 10%, rgba(39,85,98,1) 50%);
   color:var(--white);
   letter-spacing:0.15em;
-  height:100vh;
+  min-height:100vh;
 }
 body:focus-visible{
   outline-color:var(--black);
@@ -52,6 +53,10 @@ body:focus-visible{
   width:80%;
   margin:0 auto;
   height:100%;
+}
+.footer{
+  position:relative;
+  bottom:0;
 }
 .dugme{
   width:max-content;
@@ -78,6 +83,10 @@ a{
   color:var(--navText);
   cursor:pointer;
   transition:all 250ms ease-in-out;
+}
+.okean{
+  padding-block:12.5rem;
+  min-height:100vh;
 }
 a:hover{
   color:var(--specialHyperLink);

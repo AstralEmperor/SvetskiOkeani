@@ -1,0 +1,33 @@
+.okean__glavni-naslov{
+    display:flex;
+    align-items:center;
+    font-size:var(--title-size);
+}
+.okean__naslov{
+    display:flex;
+    flex-direction:column;
+    font-size:var(--subTitle-size);
+}
+.okean__textCont{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    width:50%;
+    line-height:2em;
+}
+.okean__info{
+    display:flex;
+    gap:2rem;
+    padding-block:2rem;
+    height:50rem;
+    text-align:left;
+    font-size:1.3rem;
+}
+.okean__image{
+    width:50%;
+    height:100%;
+}
+.okean__image > img{
+    height:100%;
+    width:100%;
+}
