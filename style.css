@@ -25,6 +25,7 @@
 --grayblue:#0b818b;
 --blue:#55f1ff;
 --lightblue:#d2e5fb;
+--pozadina-bela:#ffffff;
 
 --form-color:rgba(74, 77, 130, 0.8);
 
@@ -32,7 +33,9 @@
 --newsCardText-font:1.25rem;
 --label-size:1.5rem;
 --title-size:3rem;
---subTitle-size:2rem;
+--subTitle-size:2.25rem;
+
+--senka-blaga: 9.899px 9.899px 30px 0 rgba(0,0,0, 0.1);;
 }
 html {
   /* Objašnjenje - 62.5% => 10px = 1rem;  */
@@ -85,8 +88,7 @@ a{
   transition:all 250ms ease-in-out;
 }
 .okean{
-  padding-block:12.5rem;
-  min-height:100vh;
+  padding-block:5.5rem;
 }
 a:hover{
   color:var(--specialHyperLink);

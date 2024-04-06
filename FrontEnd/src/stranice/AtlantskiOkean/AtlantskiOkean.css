@@ -1,3 +1,40 @@
+.naslov__img{
+    position:absolute;
+    width:100%;
+    height:80rem;
+    background-position:center;
+    object-fit:cover;
+  }
+  .naslov__img > img{
+    width:100%;
+    height:100%;
+  }
+
+.naslov__container{
+        background-color: rgba(0, 0, 0, 0.3);
+        width:100%;
+        height:80rem;
+        transition: 0.5s ease;
+}
+.naslov__textCont{
+        display:flex;
+        height:80rem;
+        flex-direction:column;
+        justify-content:center;
+}
+.naslov__text{
+        position:relative;
+        max-width:70rem; 
+        font-size:6rem;
+        line-height:68px;
+        letter-spacing:0.2em;
+        color:var(--white);
+        margin-bottom:3rem;
+        border: 7.5px solid;
+        padding:1rem;
+        border-image: linear-gradient(to right, rgba(44, 96, 126,0.8) 2.5%,transparent 10%, transparent 85%, rgba(51, 140, 192,0.4) 2.5%) 10% 1;
+}
+
 .okean__glavni-naslov{
     display:flex;
     align-items:center;
@@ -21,7 +58,7 @@
     padding-block:2rem;
     height:50rem;
     text-align:left;
-    font-size:1.3rem;
+    font-size:1.4rem;
 }
 .okean__image{
     width:50%;
