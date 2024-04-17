@@ -1,0 +1,22 @@
+{
+    "atlanskiOkean":[
+        {
+           "naziv":"Groblje Titanika",
+           "slika":"/FrontEnd/slike/titanik.jpg",
+           "alt":"titanik.jpg",
+           "opis":"Konačno prebivalište legendarnog broda <em>Titanik</em>"
+        },
+        {
+            "naziv":"Atlantski Put",
+            "slika":"/FrontEnd/slike/atlantski-put.jpg",
+            "alt":"atlantski-put.jpg",
+            "opis":"Atlantski put je put dugačak 8.3km koji prolazi kroz arhipelag ostrva u Norveškoj."
+         },
+         {
+            "naziv":"Bermudski Trougao",
+            "slika":"/FrontEnd/slike/bermudski-trougao.png",
+            "alt":"bermudski-trougao.png",
+            "opis":"Bermudski trougao, takodje poznat kao Djavolji trougao, je urbana legenda severo-zapadnog Atlantika, gde je nestao veliki broj brodova i aviona."
+         }
+    ]
+}

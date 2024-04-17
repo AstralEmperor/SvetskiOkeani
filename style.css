@@ -5,11 +5,11 @@
   }
 /* Varijable */
 :root{
---body:#4E51A4;
 --navText:rgb(255, 255, 255);
 --newsCardText:rgba(224, 224, 224, 0.849);
 --secondNavBg:rgb(48, 51, 142);
 --specialHyperLink:rgb(216, 153, 81);
+--specialHyperLink-hover:rgb(213, 131, 37);
 --button-hover-bg:rgb(216, 153, 81);
 --button-hover-text:rgb(255, 255, 255);
 --label-color:rgb(208, 145, 72);
@@ -27,13 +27,17 @@
 --lightblue:#d2e5fb;
 --pozadina-bela:#ffffff;
 
+--body:linear-gradient(90deg, rgba(43,53,66,1) 10%, rgba(39,85,98,1) 50%);
+
 --form-color:rgba(74, 77, 130, 0.8);
 
 --specialHyperLink-font:1.5rem;
 --newsCardText-font:1.25rem;
 --label-size:1.5rem;
 --title-size:3rem;
---subTitle-size:2.25rem;
+--h2Naslov-velicina:4rem;
+--h3Naslov-velicina:3rem;
+--h5Naslov-velicina:2rem;
 
 --senka-blaga: 9.899px 9.899px 30px 0 rgba(0,0,0, 0.1);;
 }
@@ -43,7 +47,7 @@ html {
 }
 #body{
   background: rgb(43,53,66);
-  background:  linear-gradient(90deg, rgba(43,53,66,1) 10%, rgba(39,85,98,1) 50%);
+  background:var(--body);
   color:var(--white);
   letter-spacing:0.15em;
   min-height:100vh;
@@ -53,13 +57,17 @@ body:focus-visible{
   outline-offset:2px;
 }
 .container{
-  width:80%;
+  width:80% !important;
   margin:0 auto;
   height:100%;
 }
 .footer{
   position:relative;
   bottom:0;
+}
+.footer__container{
+  display:flex;
+  justify-content:space-between;
 }
 .dugme{
   width:max-content;
@@ -81,18 +89,28 @@ body:focus-visible{
   color:var(--button-hover-text);
   transition:all 250 ease-in-out;
 }
-a{
+ a{
   text-decoration:none;
   color:var(--navText);
   cursor:pointer;
   transition:all 250ms ease-in-out;
 }
+.footer a{
+  text-decoration:none;
+  color:var(--specialHyperLink);
+  cursor:pointer;
+  transition:all 150ms ease-in-out;
+}
 .okean{
   padding-block:5.5rem;
 }
-a:hover{
+li a:hover{
   color:var(--specialHyperLink);
   transition:all 250ms ease-in-out;
+}
+.footer a:hover{
+  color:var(--specialHyperLink-hover);
+  transition:all 150ms ease-in-out;
 }
 li{
   list-style:none;

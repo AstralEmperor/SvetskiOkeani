@@ -95,7 +95,7 @@ dotsNav.addEventListener('click', e => {
 // ispiši vesti preko json podataka nabavljenih importom
 async function ispisiVesti(vesti){
     const novostiContainer = document.querySelector('.novosti__sveKarteContainer');
-    nabaviVesti
+   
 
     let karta = '';
     console.log(vesti.novosti)

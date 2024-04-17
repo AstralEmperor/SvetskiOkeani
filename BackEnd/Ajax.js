@@ -12,3 +12,15 @@ export async function nabaviVesti(){
         .catch(error => console.log(error))
         return vesti;
 }
+// ajax za dobavljanje podataka za znamenitosti iz JSON-a
+export async function nabaviZnamenitosti(){
+        const req = await fetch('/BackEnd/podatci/znamenitosti.json',{
+                method:"GET",
+                headers:{
+                        'Content-Type':'application/json'
+                }
+        })
+        const znamenitosti = await req.json()
+        .catch(error => console.log(error))
+        return znamenitosti;
+}
