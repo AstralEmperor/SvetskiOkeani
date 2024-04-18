@@ -1,3 +1,21 @@
+.dodatneOpcije{
+        height:100%;
+        text-align:right;
+        padding-block:0.5rem;
+}
+.dodatneOpcije img{
+        width:100%;
+        height:100%;
+}
+.dodatneOpcije button{
+        cursor: pointer;
+}
+#promeniFont{
+        height:3rem;
+}
+#promeniPaletu{
+        height:3rem;
+}
 .navigacija{
     position:absolute;
     width:100%;

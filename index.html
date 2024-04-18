@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
+    <link id="font" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/fontNormalni.css">
+    <link id="boje" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/paletaBoja1.css">
     <link rel="stylesheet" href="/FrontEnd/src/stranice/pocetna/pocetna.css">
     <link rel="stylesheet" href="/FrontEnd/src/stranice/pocetna/pocetnaMquery.css">
     <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/header.css">
@@ -16,6 +18,10 @@
 <body id="body">
     <!--Navigation-->
     <nav class="navigacija">
+            <div class="dodatneOpcije container">
+                <button id="promeniFont"><img src="/FrontEnd/slike/font.png"></button>
+                <button id="promeniPaletu"><img src="/FrontEnd/slike/svetlo-tamno.png"></button>
+            </div>
         <div class="navigacija__container container">
         <button type="button" class="navigacija__toggleBtn" title="hamburgerButton">
             <span class="navigacija__spanLine"></span>
@@ -70,6 +76,15 @@
 </section>
 <section class="novosti">
     <div class="container">
+       <div class="naslovniDeo">
+            <h5>
+                Budite uvek obavešteni
+            </h5>
+            <h2 class="novosti__naslov">
+                NAJNOVIJE VESTI
+            </h2>
+            <hr>
+       </div>
       <div class="novosti__sveKarteContainer">
         <!-- Novosti/Vesti se ispisuju ovde kroz json-> JS -->
       </div>

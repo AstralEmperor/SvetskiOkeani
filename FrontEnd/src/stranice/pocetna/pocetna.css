@@ -110,7 +110,16 @@
         background-color:var(--white);
 }
 .novosti{
-        margin-block:2rem;
+        margin-block:5.5rem;
+}
+.naslovniDeo > h5{
+        font-size:var(--h5Naslov-velicina);
+        font-weight:400;
+}
+.novosti__naslov{
+        width:100%;
+        text-align:center;
+        font-size:var(--h2Naslov-velicina);
 }
 .novosti__sveKarteContainer{
         display:flex;
@@ -137,6 +146,7 @@
         letter-spacing:0.15em;
         padding-top:1rem;
         padding-bottom:0.5rem;
+        padding-inline:1rem;
         line-height:1.35em;
 }
 .novosti__slikaContainer{
@@ -161,6 +171,7 @@
         color:var(--specialHyperLink);
         font-weight:800;
         font-size:var(--specialHyperLink-font);
+        padding-inline:1rem;
 }
 .novosti__donjiDeo{
         display:flex;
@@ -168,4 +179,22 @@
         justify-content:space-between;
         height:100%;
         padding-bottom:1rem;
+}
+.okean{
+        display:flex;
+        background-color:var(--white);
+        color:var(--black);
+        padding-block:5.5rem; 
+}
+.okean__okean{
+        display:flex;
+        gap:3rem;
+}
+.okean__imgCont{
+        width:50%;
+        height:100%;
+}
+.okean__imgCont img{
+        width:100%;
+        height:100%;
 }

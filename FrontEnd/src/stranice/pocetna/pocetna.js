@@ -98,7 +98,6 @@ async function ispisiVesti(vesti){
    
 
     let karta = '';
-    console.log(vesti.novosti)
     for(let vest of vesti.novosti){
         karta +=`<div class="novosti__karta">
             <h3 class="novosti__h3">

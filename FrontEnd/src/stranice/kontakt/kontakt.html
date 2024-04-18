@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link id="font" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/fontNormalni.css">
+    <link id="boje" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/paletaBoja1.css">
     <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/header.css">
     <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/headerMquery.css">
     <link rel="stylesheet" href="/FrontEnd/src/zajednicko/footer/footer.css">
@@ -13,6 +15,10 @@
 <body id="body">
         <!--Navigation-->
         <nav class="navigacija">
+            <div class="dodatneOpcije container">
+                <button id="promeniFont"><img src="/FrontEnd/slike/font.png"></button>
+                <button id="promeniPaletu"><img src="/FrontEnd/slike/svetlo-tamno.png"></button>
+            </div>
             <div class="navigacija__container container">
             <button type="button" class="navigacija__toggleBtn" title="hamburgerButton">
                 <span class="navigacija__spanLine"></span>
@@ -78,10 +84,14 @@
     </form>
  </section>
  <footer class="footer">
-    <div>
-        <p>@CopyRight rights reserved || Marko Kovačević</p>
+    <div class="footer__container container">
+     <div>
+        <p>©CopyRight rights reserved || Marko Kovačević</p>
     </div>
-</footer>
+    <div>
+        <a href="/FrontEnd/src/stranice/kontakt/kontakt.html">Kontakt</a> || <a href="#">Mapa sajta</a>
+    </div>
+</div>
 </body>
 <script src="kontakt.js"></script>
 <script src="/FrontEnd/src/zajednicko/navigacija/header.js"></script>
