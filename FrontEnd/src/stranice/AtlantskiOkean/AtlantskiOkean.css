@@ -68,35 +68,6 @@
     width:100%;
     max-height:60rem;
 }
-.statistika{
-    background-color:var(--pozadina-bela);
-    color:var(--black);
-    padding-block:5.5rem;
-}
-.statistika__container{
-    display:flex;
-    flex-direction:column;
-}
-.statistika__naslov{
-    width:100%;
-    text-align:center;
-    font-size:var(--h2Naslov-velicina);
-    margin-bottom:3.5rem;
-}
-.dl__lista{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    text-align:center;
-}
-.dl__lista dt{
-    font-weight:600;
-    font-size:3rem;
-    margin-bottom:2rem;
-}
-.dl__lista dd{
-    font-size:2rem;
-}
 .znamenitosti{
     background-color:var(--white);
     color:var(--black);

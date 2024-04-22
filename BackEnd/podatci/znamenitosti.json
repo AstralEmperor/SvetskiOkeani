@@ -18,5 +18,19 @@
             "alt":"bermudski-trougao.png",
             "opis":"Bermudski trougao, takodje poznat kao Djavolji trougao, je urbana legenda severo-zapadnog Atlantika, gde je nestao veliki broj brodova i aviona."
          }
+    ],
+    "tihiOkean":[
+      {
+           "naziv":"Marijanski Rov",
+           "slika":"/FrontEnd/slike/MarijanskiRov.jpg",
+           "alt":"MarijanskiRov.jpg",
+           "opis":"Najdublja okeanski deo na svetu"
+      },
+      {
+         "naziv":"Bolova Piramida",
+         "slika":"/FrontEnd/slike/BolovaPiramida.jpg",
+         "alt":"BolovaPiramida.jpg",
+         "opis":"Erozijski ostatak vulkana, predstavlja najveći kameni toranj na svetu"
+    }
     ]
 }

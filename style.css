@@ -100,3 +100,17 @@ li{
   text-align:center;
   width:100%;
 }
+@media only screen and (max-width:1024px){
+  .container{
+    width:90% !important;
+    margin:0 auto;
+    height:100%;
+  }
+}
+@media only screen and (max-width:768px){
+  .container{
+    width:95% !important;
+    margin:0 auto;
+    height:100%;
+  }
+}
