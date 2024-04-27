@@ -20,14 +20,14 @@
     flex-direction:column;
     gap:2rem;
     justify-content:center;
-    background-color:var(--form-color);
+    background-color:var(--boja-forme);
 }
 .kontakt__inputPoljaILabel{
     display:flex;
     flex-direction:column;gap:2rem;
 }
 h1{
-    font-size:var(--title-size);
+    font-size:var(--velicina-naslov);
     margin-bottom:2rem;
     margin-top:1rem;
 }
@@ -41,8 +41,8 @@ input{
     width:100%;
 }
 label{
-    font-size:var(--label-size);
-    color:var(--label-color);
+    font-size:var(--velicina-labela);
+    color:var(--boja-labela);
     width:max-content;
     text-align:left;
 }

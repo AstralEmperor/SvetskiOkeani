@@ -1,0 +1,115 @@
+.naslov__img{
+    position:absolute;
+    width:100%;
+    height:80rem;
+    background-position:center;
+    object-fit:cover;
+  }
+  .naslov__img > img{
+    width:100%;
+    height:100%;
+  }
+
+.naslov__container{
+        background-color: rgba(0, 0, 0, 0.3);
+        width:100%;
+        height:80rem;
+        transition: 0.5s ease;
+}
+.naslov__textCont{
+        display:flex;
+        height:80rem;
+        flex-direction:column;
+        justify-content:center;
+}
+.naslov__text{
+        position:relative;
+        max-width:70rem; 
+        font-size:6rem;
+        line-height:68px;
+        letter-spacing:0.1em;
+        color:var(--bela);
+        margin-bottom:3rem;
+        border: 7.5px solid;
+        padding:1rem;
+        border-image: linear-gradient(to right, rgba(44, 96, 126,0.8) 2.5%,transparent 10%, transparent 85%, rgba(51, 140, 192,0.4) 2.5%) 10% 1;
+}
+
+.okean__glavni-naslov{
+    display:flex;
+    align-items:center;
+    font-size:var(--velicina-naslov);
+}
+.okean__naslov{
+    display:flex;
+    flex-direction:column;
+    font-size:var(--h3Naslov-velicina);
+}
+.okean__textCont{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    width:50%;
+    line-height:2em;
+}
+.okean__info{
+    display:flex;
+    gap:2rem;
+    padding-block:2rem;
+    text-align:left;
+    font-size:1.4rem;
+}
+.okean__image{
+    width:50%;
+    height:100%;
+}
+.okean__image > img{
+    height:100%;
+    width:100%;
+    max-height:60rem;
+}
+.znamenitosti{
+    background-color:var(--bela);
+    color:var(--crna);
+    padding-block:5.5rem;
+}
+.znamenitosti__naslov{
+    width:100%;
+    text-align:center;
+    font-size:var(--h2Naslov-velicina);
+    margin-bottom:3.5rem;
+}
+.znamenitosti__karticeCont{
+    display:grid;
+    width:100%;
+    column-gap:3%;
+    grid-template-columns:31% 31% 31%;
+    grid-template-rows: 400px;
+}
+.znamenitosti__karta{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    color:var(--bela);
+    background:var(--body);
+    border:1px solid silver;
+}
+.znamenitosti__imgCont{
+    width: 100%;
+    height:60%;
+}
+.znamenitosti__imgCont > img{
+    width:100%;
+    height:100%;
+}
+.znamenitosti__h5{
+    font-size:var(--h5Naslov-velicina);
+    margin-bottom:1rem;
+    font-weight:600;
+}
+.znamenitosti__sadrzaj{
+    padding:1rem;
+}
+.znamenitosti__sadrzaj > p{
+    font-size:1.5rem;
+}

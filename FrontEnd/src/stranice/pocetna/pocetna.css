@@ -26,22 +26,22 @@
 }
 
 .naslov__dugme > span{
-        color:var(--white);
+        color:var(--bela);
         font-size:50px;
         width:50px;
 }
 
 .strelica-nazad{
-        color:var(--white);
+        color:var(--bela);
         pointer-events:all;
 }
 .strelica-napred{
-        color:var(--white);
+        color:var(--bela);
         pointer-events:all;
 }
 
 .je-sakriveno{
-        color:var(--disabled);
+        color:var(--iskljuceno);
         opacity:0.65;
         pointer-events:none;
 }
@@ -77,7 +77,7 @@
         font-size:6rem;
         line-height:68px;
         letter-spacing:0.2em;
-        color:var(--white);
+        color:var(--bela);
         margin-bottom:3rem;
         border: 7.5px solid;
         padding:1rem;
@@ -85,7 +85,7 @@
 }
 
 .naslov__dugme{
-        color:var(--white);
+        color:var(--bela);
         z-index:20;
 }
 
@@ -100,14 +100,14 @@
          width:20px;
          height:20px;
          border-radius:50%;
-         background-color:var(--lightgray);
-         border:2px solid var(--black);
+         background-color:var(--svetloSiva);
+         border:2px solid var(--crna);
          transition:0.5s ease-in-out;
          cursor:pointer;
          z-index:10;
 }
 .trenutni-slajd{
-        background-color:var(--white);
+        background-color:var(--bela);
 }
 .novosti{
         margin-block:5.5rem;
@@ -141,8 +141,8 @@
         transition:all 300 ease-in-out;
 }
 .novosti__text{
-        font-size:var(--newsCardText-font);
-        color:var(--newsCardText);
+        font-size:var(--novaKartaText-font);
+        color:var(--novaKartaText);
         letter-spacing:0.15em;
         padding-top:1rem;
         padding-bottom:0.5rem;
@@ -168,9 +168,9 @@
         padding-block:0.5rem;
 }
 .novosti__linkContainer > a{
-        color:var(--specialHyperLink);
+        color:var(--specijalniHyperLink);
         font-weight:800;
-        font-size:var(--specialHyperLink-font);
+        font-size:var(--specijalniHyperLink-font);
         padding-inline:1rem;
 }
 .novosti__donjiDeo{
@@ -182,8 +182,8 @@
 }
 .okean{
         display:flex;
-        background-color:var(--white);
-        color:var(--black);
+        background-color:var(--bela);
+        color:var(--crna);
         padding-block:5.5rem; 
 }
 .okean__okean{

@@ -1,0 +1,33 @@
+@media only screen and (max-width:768px){
+    .naslov__img{
+        height:60rem;
+      }
+      .naslov__container{
+        height:60rem;
+        text-align:center;
+      }
+    .okean__info{
+        flex-direction: column;
+        width:100%;
+    }
+    .okean__textCont{
+        width:100%;
+        text-align:center;
+    }
+    .okean__image > img{
+        height:100%;
+        width:100%;
+        max-height:30rem;
+    }
+    .okean__image{
+        width:100%;
+    }
+    .znamenitosti__karticeCont{
+        grid-template-columns:1fr;
+        row-gap:2rem;
+    }
+    .znamenitosti__karta{
+        text-align:center;
+    }
+    
+}

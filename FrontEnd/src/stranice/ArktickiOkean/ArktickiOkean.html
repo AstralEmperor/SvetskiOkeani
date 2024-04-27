@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link id="font" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/fontNormalni.css">
+    <link id="boje" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/paletaBoja1.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/header.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/headerMquery.css">
+    <link rel="stylesheet" href="/FrontEnd/src/stranice/ArktickiOkean/ArktickiOkean.css">
+    <link rel="stylesheet" href="/FrontEnd/src/stranice/ArktickiOkean/ArktickiOkean-Mquery.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/footer/footer.css">
+    <title>Atlantski okean</title>
+</head>
+<body id="body">
+    <!-- Navigacija -->
+    <nav class="navigacija">
+        <div class="dodatneOpcije container">
+            <button id="promeniFont"><img src="/FrontEnd/slike/font.png"></button>
+            <button id="promeniPaletu"><img src="/FrontEnd/slike/svetlo-tamno.png"></button>
+        </div>
+        <div class="navigacija__container container">
+        <button type="button" class="navigacija__toggleBtn" title="hamburgerButton">
+            <span class="navigacija__spanLine"></span>
+            <span class="navigacija__spanLine"></span>
+            <span class="navigacija__spanLine"></span>
+        </button>
+        <img class="navigacija__icon" src="/FrontEnd/slike/Ikonica.png" alt="icon.png">
+     <div class="navigacija__wrap">
+        <ul class="navigacija__list navigacija__hideNav">
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="/index.html">Početna</a></li>
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="#/">Okeani</a><img tabindex="0" aria-expanded ="false" tabindex="0" class="navigacija__link-dugme" src="/FrontEnd/slike/strelica-dole.png" alt="strelica-dole.png"></li>
+                <li class="sekundarnaNavigacija" style="display:none">
+                    <ul>
+                        <li class=""><a href="/FrontEnd/src/stranice/AtlantskiOkean/AtlantskiOkean.html">Atlantski okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/TihiOkean/TihiOkean.html">Tihi okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/IndijskiOkean/IndijskiOkean.html">Indijski okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/ArktickiOkean/ArktickiOkean.html">Arktički okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/AntartickiOkean/AntartickiOkean.html">Antarktički okean</a></li>
+                    </ul>
+                </li>
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="/FrontEnd/src/stranice/oNama/oNama.html">O nama</a></li>
+            <li class="navigacija__list-item"><a class="navigacija__list-link" href="/FrontEnd/src/stranice/kontakt/kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<!-- Sekcija -->
+    <section class="naslov">
+            <div class="naslov__img">
+                <img src="/FrontEnd/slike/arkticki-okean.jpg" alt="atlanticki-okean.jpg">
+            </div>  
+         <div class="naslov__container">
+            <div class="container"> 
+                <div class="naslov__textCont">
+                    <p class="naslov__text">Arktički okean</p>
+               </div>
+        </div>
+    </div>
+    </section>
+    <section class="okean">
+        <div class="okean__sadrzaj container">
+                <div class="okean__info">
+                    <div class="okean__image">
+                        <img src="/FrontEnd/slike/altantski-okean-mapa.webp" alt="altantski-okean-mapa.webp">
+                    </div>
+                    <div class="okean__textCont">
+                        <h3 class="okean__naslov">ISTORIJA</h3>
+                        <p>
+                            Atlantski okean je drugi po veličini okean, sa površinom od 106.460.000 km 2 zauzima oko 20 % površine Zemlje<br>
+                            i oko 29 % površine vode. Atlantski okean razdvaja Stari od Novog svijeta..<br>
+                            Naziv okeana, potiče iz grčke mitologije, i znači „Atlasovo more.”<br>
+
+                            Atlantski okean je okean koji razdvaja Severnu i Južnu Ameriku od Evrope i Afrike.<br>
+                         </p>
+                         <p>
+                            Jedni od prvih ljudi koji su plovili Atlantikom su bili Feničani koji su plovili istočnim obalama već oko 1200. p. n. e.<br>
+                            Oni su otkrili Kanarska ostrva. Kartaginski moreplovac Hanon Moreplovac je, navodno, oko 465. p. n. e. plovio obalom Afrike sve do Gvinejskog zaliva,<br>
+                            a njegov savremenik i zemljak Himilko do Bretanje. Pitija Masiliski je 325. p. n. e. plovio do Bretanje i Šetlandskih ostrva.<br>
+                            Međutim veći deo plovidbe u starom veku je bio skoncentrisan na Sredozemno more, dok je po Atlantskom okeanu postojala plovidba uglavnom u rejonu Galije, Britanskih ostrva i Iberije.<br>
+                            Sve plovne rute tog vremena su vodile u Sredozemno more.<br>
+                         </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="znamenitosti">
+        <div class="znamenitosti__container container">
+                    <h2 class="znamenitosti__naslov">ZNAMENITOSTI</h2>
+            </div>
+            <div class="znamenitosti__karticeCont container">
+                <!-- Karte se generišu ovde -->
+            </div>
+    </section> 
+    <footer class="footer">
+        <div class="footer__container container">
+         <div>
+            <p>©CopyRight rights reserved || Marko Kovačević</p>
+        </div>
+        <div>
+            <a href="/FrontEnd/src/stranice/kontakt/kontakt.html">Kontakt</a> || <a href="#">Mapa sajta</a>
+        </div>
+    </div>
+    <script src="/FrontEnd/src/zajednicko/navigacija/header.js"></script>
+    <script type="module" src="ArktickiOkean.js"></script>
+</body>
+</html>

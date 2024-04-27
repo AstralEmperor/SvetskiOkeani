@@ -5,10 +5,10 @@
   }
 /* Varijable */
 :root{
---specialHyperLink-font:1.5rem;
---newsCardText-font:1.25rem;
---label-size:1.5rem;
---title-size:3rem;
+--specijalniHyperLink-font:1.5rem;
+--novaKartaText-font:1.25rem;
+--velicina-labela:1.5rem;
+--velicina-naslov:3rem;
 --h2Naslov-velicina:4rem;
 --h3Naslov-velicina:3rem;
 --h5Naslov-velicina:2rem;
@@ -17,13 +17,13 @@
 #body{
   background: rgb(43,53,66);
   background:var(--body);
-  color:var(--white);
+  color:var(--bela);
   letter-spacing:0.15em;
   min-height:100vh;
 }
 
 body:focus-visible{
-  outline-color:var(--black);
+  outline-color:var(--specijalniHyperLink);
   outline-offset:2px;
 }
 .container{
@@ -43,20 +43,20 @@ body:focus-visible{
   width:max-content;
   padding: 0.5rem 1rem;
   height:auto;
-  background-color:var(--white);
-  color:var(--black);
+  background-color:var(--bela);
+  color:var(--specijalniHyperLink);
   border-radius:10%;
   font-size:1.5rem;
   display:flex;
   align-items:center;
   justify-content:center;
-  border:1px solid var(--specialHyperLink);
+  border:1px solid var(--specijalniHyperLink);
   transition:all 250 ease-in-out;
 }
 .dugme:hover{
   cursor:pointer;
-  background-color:var(--button-hover-bg);
-  color:var(--button-hover-text);
+  background-color:var(--dugme-hover-pozadina);
+  color:var(--dugme-hover-text);
   transition:all 250 ease-in-out;
 }
  a{
@@ -67,7 +67,7 @@ body:focus-visible{
 }
 .footer a{
   text-decoration:none;
-  color:var(--specialHyperLink);
+  color:var(--specijalniHyperLink);
   cursor:pointer;
   transition:all 150ms ease-in-out;
 }
@@ -80,15 +80,15 @@ hr{
   margin-top:1rem;
   margin-bottom:3.5rem;
   height:2px;
-  border:1px solid var(--hr-border);
+  border:1px solid var(--hr);
 }
 
 li a:hover{
-  color:var(--specialHyperLink);
+  color:var(--specijalniHyperLink);
   transition:all 250ms ease-in-out;
 }
 .footer a:hover{
-  color:var(--specialHyperLink-hover);
+  color:var(--specijalniHyperLink-hover);
   transition:all 150ms ease-in-out;
 }
 li{

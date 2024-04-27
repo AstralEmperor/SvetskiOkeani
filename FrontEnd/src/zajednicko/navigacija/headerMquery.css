@@ -5,7 +5,7 @@
         background: rgb(43,53,66);
         background:  linear-gradient(90deg, rgba(43,53,66,0.8) 0%, rgba(39,85,98,0.8) 0%, rgba(37, 14, 92, 0.8) 100%);
         z-index:99999;
-        border-bottom:1px solid var(--black);
+        border-bottom:1px solid var(--crna);
     }
     .navigacija__toggleBtn{
         position:absolute;
@@ -25,7 +25,7 @@
         position:relative;
         height:2px;
         width:30px;
-        background-color:var(--specialHyperLink);
+        background-color:var(--specijalniHyperLink);
     }
     .navigacija__list{
         display:none;
@@ -41,7 +41,7 @@
         z-index:9999;
     }
     .navigacija__list-item{
-        border-bottom:1px solid var(--white);
+        border-bottom:1px solid var(--bela);
     }
     .navigacija__showNav{
         display:flex;
@@ -59,7 +59,7 @@
         
     }
     .sekundarnaNavigacija * li{
-        border-bottom:1px solid var(--white);
+        border-bottom:1px solid var(--bela);
         padding-block:1rem;
     }
 }
