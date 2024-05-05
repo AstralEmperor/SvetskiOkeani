@@ -32,5 +32,26 @@
          "alt":"BolovaPiramida.jpg",
          "opis":"Erozijski ostatak vulkana, predstavlja najveći kameni toranj na svetu"
     }
-    ]
+    ],
+    "arktickiOkean":[
+      {
+           "naziv":"Polarna Svetlost",
+           "slika":"/FrontEnd/slike/polarnaSvetlost.jpg",
+           "alt":"polarnaSvetlost.jpg",
+           "opis":"Elektromagnetno polje zemlje u susretu sa sunčevim zracima pravi prelep pejzaž"
+      },
+      {
+         "naziv":"Ledene Statue",
+         "slika":"/FrontEnd/slike/ledeneStatue.jpg",
+         "alt":"ledeneStatue.jpg",
+         "opis":"Ledene statue, koje su bile deo ledene mase.. plutaju mirno prema okeanu"
+    },
+   { 
+      "naziv":"Litica ptica",
+      "slika":"/FrontEnd/slike/ostrvoPtica.jpg",
+      "alt":"ostrvoPtica.jpg",
+      "opis":"Litica ptica, je ostrvo ptica koji se drugačije zove ostrvo princa Leopolda"
+   }
+   ]
+    
 }
