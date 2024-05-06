@@ -8,10 +8,10 @@
     <link id="boje" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/paletaBoja1.css">
     <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/header.css">
     <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/headerMquery.css">
-    <link rel="stylesheet" href="/FrontEnd/src/stranice/ArktickiOkean/ArktickiOkean.css">
-    <link rel="stylesheet" href="/FrontEnd/src/stranice/ArktickiOkean/ArktickiOkean-Mquery.css">
     <link rel="stylesheet" href="/FrontEnd/src/zajednicko/footer/footer.css">
-    <title>Atlantski okean</title>
+    <link rel="stylesheet" href="/FrontEnd/src/stranice/NaseUsluge/usluge.css">
+    <link rel="stylesheet" href="/FrontEnd/src/stranice/NaseUsluge/usluge-mquery.css">
+    <title>Naše Usluge</title>
 </head>
 <body id="body">
     <!-- Navigacija -->
@@ -50,50 +50,45 @@
 <!-- Sekcija -->
     <section class="naslov">
             <div class="naslov__img">
-                <img src="/FrontEnd/slike/arkticki-okean.jpg" alt="atlanticki-okean.jpg">
+                <img src="/FrontEnd/slike/usluge-pozadina.jpg" alt="usluge-pozadina.jpg">
             </div>  
          <div class="naslov__container">
             <div class="container"> 
                 <div class="naslov__textCont">
-                    <p class="naslov__text">Arktički(Severni Ledeni) okean</p>
+                    <p class="naslov__text">Naše Usluge</p>
                </div>
         </div>
     </div>
     </section>
-    <section class="okean">
-        <div class="okean__sadrzaj container">
-                <div class="okean__info">
-                    <div class="okean__image">
-                        <img src="/FrontEnd/slike/arkticki-okean-mapa.jpg" alt="arkticki-okean-mapa.jpg">
-                    </div>
-                    <div class="okean__textCont">
-                        <h3 class="okean__naslov">ISTORIJA</h3>
-                        <p>
-                            Atlantski okean je drugi po veličini okean, sa površinom od 106.460.000 km 2 zauzima oko 20 % površine Zemlje<br>
-                            i oko 29 % površine vode. Atlantski okean razdvaja Stari od Novog svijeta..<br>
-                            Naziv okeana, potiče iz grčke mitologije, i znači „Atlasovo more.”<br>
-
-                            Atlantski okean je okean koji razdvaja Severnu i Južnu Ameriku od Evrope i Afrike.<br>
-                         </p>
-                         <p>
-                            Jedni od prvih ljudi koji su plovili Atlantikom su bili Feničani koji su plovili istočnim obalama već oko 1200. p. n. e.<br>
-                            Oni su otkrili Kanarska ostrva. Kartaginski moreplovac Hanon Moreplovac je, navodno, oko 465. p. n. e. plovio obalom Afrike sve do Gvinejskog zaliva,<br>
-                            a njegov savremenik i zemljak Himilko do Bretanje. Pitija Masiliski je 325. p. n. e. plovio do Bretanje i Šetlandskih ostrva.<br>
-                            Međutim veći deo plovidbe u starom veku je bio skoncentrisan na Sredozemno more, dok je po Atlantskom okeanu postojala plovidba uglavnom u rejonu Galije, Britanskih ostrva i Iberije.<br>
-                            Sve plovne rute tog vremena su vodile u Sredozemno more.<br>
-                         </p>
-                    </div>
-                </div>
+    <section>
+        <div class="container">
+            <div class="naslovniDeo">
+                 <h5>
+                     Budite prvi obavešteni
+                 </h5>
+                 <h2 class="novosti__naslov">
+                     Dnevne vesti
+                 </h2>
+                 <hr>
+            </div>
+            <div class="novosti__sveKarteContainer">
+                <!-- najnovije vesti -->
+            </div>
         </div>
     </section>
-    <section class="znamenitosti">
-        <div class="znamenitosti__container container">
-                    <h2 class="znamenitosti__naslov">ZNAMENITOSTI</h2>
+    <section>
+        <div class="container">
+            <div class="naslovniDeo">
+                 <h5>
+                     Sve na jednom mestu
+                 </h5>
+                 <h2 class="novosti__naslov">
+                     Aktuelne Vesti svih Okeana
+                 </h2>
+                 <hr>
             </div>
-            <div class="znamenitosti__karticeCont container">
-                <!-- Karte se generišu ovde -->
-            </div>
-    </section> 
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer__container container">
          <div>
@@ -103,7 +98,7 @@
             <a href="/FrontEnd/src/stranice/kontakt/kontakt.html">Kontakt</a> || <a href="#">Mapa sajta</a>
         </div>
     </div>
+    <script src="/FrontEnd/src/stranice/NaseUsluge/usluge.js" type="module"></script>
     <script src="/FrontEnd/src/zajednicko/navigacija/header.js"></script>
-    <script type="module" src="ArktickiOkean.js"></script>
 </body>
 </html>

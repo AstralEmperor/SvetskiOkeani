@@ -1,0 +1,9 @@
+@media only screen and (max-width:768px){
+    .naslov__img{
+        height:60rem;
+      }
+      .naslov__container{
+        height:60rem;
+        text-align:center;
+      }
+    }

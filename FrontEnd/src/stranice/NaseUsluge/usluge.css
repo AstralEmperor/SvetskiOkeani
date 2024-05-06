@@ -1,0 +1,96 @@
+.naslov__img{
+    position:absolute;
+    width:100%;
+    height:80rem;
+    background-position:center;
+    object-fit:cover;
+  }
+  .naslov__img > img{
+    width:100%;
+    height:100%;
+  }
+
+.naslov__container{
+        background-color: rgba(0, 0, 0, 0.3);
+        width:100%;
+        height:80rem;
+        transition: 0.5s ease;
+}
+.naslov__textCont{
+        display:flex;
+        height:80rem;
+        flex-direction:column;
+        justify-content:center;
+}
+.naslov__text{
+        position:relative;
+        max-width:70rem; 
+        font-size:6rem;
+        line-height:68px;
+        letter-spacing:0.1em;
+        color:var(--bela);
+        margin-bottom:3rem;
+        border: 7.5px solid;
+        padding:1rem;
+        background-color:rgba(44, 96, 126,0.3) ;
+        border-image: linear-gradient(to right, rgba(44, 96, 126,0.8) 2.5%,transparent 10%, transparent 85%, rgba(51, 140, 192,0.4) 2.5%) 10% 1;
+}
+.novosti__sveKarteContainer{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    justify-content:space-between;
+}
+.novosti__karta{
+    display:flex;
+    flex-direction: column;
+    padding-block:0.5rem;
+    min-width:30rem;
+    max-width:30rem;
+    transition:all 300 ease-in-out;
+    box-shadow:var(--senka-blaga);
+}
+.novosti__karta:hover{
+    transform: scale(1.1);
+    transition:all 300 ease-in-out;
+}
+.novosti__text{
+    font-size:var(--novaKartaText-font);
+    color:var(--novaKartaText);
+    letter-spacing:0.15em;
+    padding-top:1rem;
+    padding-bottom:0.5rem;
+    padding-inline:1rem;
+    line-height:1.35em;
+}
+.novosti__slikaContainer{
+    max-height:20rem;
+    min-height:20rem;
+    min-width:30rem;
+    max-width:30rem;
+}
+.novosti__slikaContainer > img{
+    width:100%;
+    height:100%;
+}
+.novosti__h3{
+    display:flex;
+    position:relative;
+    text-align:center;
+    font-size:2.25rem;
+    font-style:italic;
+    padding-block:0.5rem;
+}
+.novosti__linkContainer > a{
+    color:var(--specijalniHyperLink);
+    font-weight:800;
+    font-size:var(--specijalniHyperLink-font);
+    padding-inline:1rem;
+}
+.novosti__donjiDeo{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:100%;
+    padding-bottom:1rem;
+}
