@@ -20,18 +20,24 @@
          }
     ],
     "tihiOkean":[
-      {
-           "naziv":"Marijanski Rov",
-           "slika":"/FrontEnd/slike/MarijanskiRov.jpg",
-           "alt":"MarijanskiRov.jpg",
-           "opis":"Najdublja okeanski deo na svetu"
+         {
+            "naziv":"Marijanski Rov",
+            "slika":"/FrontEnd/slike/MarijanskiRov.jpg",
+            "alt":"MarijanskiRov.jpg",
+            "opis":"Marijanski Rov je ogromna uvala u tihom okeana, koja predstavlja najdublju tačku na svetu"
+         },
+         {
+            "naziv":"Bolova Piramida",
+            "slika":"/FrontEnd/slike/BolovaPiramida.jpg",
+            "alt":"BolovaPiramida.jpg",
+            "opis":"Erozijski ostatak vulkana, predstavlja najveći kameni toranj na svetu"
       },
       {
-         "naziv":"Bolova Piramida",
-         "slika":"/FrontEnd/slike/BolovaPiramida.jpg",
-         "alt":"BolovaPiramida.jpg",
-         "opis":"Erozijski ostatak vulkana, predstavlja najveći kameni toranj na svetu"
-    }
+         "naziv":"Veliki Koralni Greben",
+         "slika":"/FrontEnd/slike/Veliki-koralni-greben.png",
+         "alt":"Veliki-koralni-greben.png",
+         "opis":"Najveći koralni greben na svetu, nalazi se u moru Korala"
+      }
     ],
     "arktickiOkean":[
       {
@@ -45,13 +51,41 @@
          "slika":"/FrontEnd/slike/ledeneStatue.jpg",
          "alt":"ledeneStatue.jpg",
          "opis":"Ledene statue, koje su bile deo ledene mase.. plutaju mirno prema okeanu"
-    },
-   { 
-      "naziv":"Litica ptica",
-      "slika":"/FrontEnd/slike/ostrvoPtica.jpg",
-      "alt":"ostrvoPtica.jpg",
-      "opis":"Litica ptica, je ostrvo ptica koji se drugačije zove ostrvo princa Leopolda"
-   }
-   ]
+      },
+      { 
+         "naziv":"Litica ptica",
+         "slika":"/FrontEnd/slike/ostrvoPtica.jpg",
+         "alt":"ostrvoPtica.jpg",
+         "opis":"Litica ptica, je ostrvo ptica koji se drugačije zove ostrvo princa Leopolda"
+      }
+   ],
+   "indijskiOkean":[
+     {
+          "naziv":"Šume Mangrova",
+          "slika":"/FrontEnd/slike/sumeMangrova.webp",
+          "alt":"sumeMangrova.webp",
+          "opis":"Šume Mangrova koje se nalaze u Indijskom okeanu..predstavljaju polovinu ukupnog broja Mangrova"
+     },
+     {
+        "naziv":"Pomorski put svile",
+        "slika":"/FrontEnd/slike/pomorski-put-svile.jpg",
+        "alt":"pomorski-put-svile.jpg",
+        "opis":"Ovo je istoriski pomorski put koji se koristio radi prenosa svile"
+     },
+     { 
+        "naziv":"Ostrvo Sveštenika",
+        "slika":"/FrontEnd/slike/Ostrvo-NusaPenida.jpg",
+        "alt":"Ostrvo-NusaPenida.jpg",
+        "opis":"Ostrvo sveštenika prestavlja litičasto ostrvo nastalo erozijom, sa originalnim nazivom Nusa Penida"
+     }
+  ],
+  "antartickiOkean":[
+    {
+         "naziv":"Snežno Brdo",
+         "slika":"/FrontEnd/slike/carskiPingvini.webp",
+         "alt":"carskiPingvini.webp",
+         "opis":"Ostrvo koje je poznato po velikim kolonijama pingvina. Od kojih su najpoznatiji Carski pingvini"
+    }
+ ]
     
 }

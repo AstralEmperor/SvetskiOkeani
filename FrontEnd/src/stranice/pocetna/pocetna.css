@@ -81,6 +81,7 @@
         margin-bottom:3rem;
         border: 7.5px solid;
         padding:1rem;
+        background-color:rgba(44, 96, 126,0.3) ;
         border-image: linear-gradient(to right, rgba(44, 96, 126,0.8) 2.5%,transparent 10%, transparent 85%, rgba(51, 140, 192,0.4) 2.5%) 10% 1;
 }
 
