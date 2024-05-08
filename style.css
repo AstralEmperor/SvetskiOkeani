@@ -12,7 +12,6 @@
 --h2Naslov-velicina:4rem;
 --h3Naslov-velicina:3rem;
 --h5Naslov-velicina:2rem;
-
 }
 #body{
   background: rgb(43,53,66);
@@ -91,7 +90,7 @@ li a:hover{
   color:var(--specijalniHyperLink-hover);
   transition:all 150ms ease-in-out;
 }
-li{
+li:not(.obicnaLista){
   list-style:none;
 }
 .naslovniDeo{
