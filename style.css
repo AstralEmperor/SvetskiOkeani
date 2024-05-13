@@ -5,13 +5,13 @@
   }
 /* Varijable */
 :root{
---specijalniHyperLink-font:1.5rem;
---novaKartaText-font:1.25rem;
---velicina-labela:1.5rem;
---velicina-naslov:3rem;
---h2Naslov-velicina:4rem;
---h3Naslov-velicina:3rem;
---h5Naslov-velicina:2rem;
+  --specijalniHyperLink-font:1.5rem;
+  --novaKartaText-font:1.25rem;
+  --velicina-labela:1.5rem;
+  --velicina-naslov:3rem;
+  --h2Naslov-velicina:4rem;
+  --h3Naslov-velicina:3rem;
+  --h5Naslov-velicina:2rem;
 }
 #body{
   background: rgb(43,53,66);

@@ -1,4 +1,5 @@
 import { nabaviZnamenitosti } from "../../../../BackEnd/Ajax.js";
+import { nabaviVesti } from "../../../../BackEnd/Ajax.js";
 
 
 async function ispisiZnamenitosti(znamenitosti){
@@ -23,4 +24,40 @@ async function ispisiZnamenitosti(znamenitosti){
 
 nabaviZnamenitosti().then(znamenitosti => {
     ispisiZnamenitosti(znamenitosti);
+});
+
+async function ispisiVesti(vesti){
+    const novostiContainer = document.querySelector('.novosti__sveKarteContainer');
+   
+
+    let karta = '';
+    let broj = 0;
+    for(let vest of vesti.novosti){
+        if(vest.okean === "Atlantik"){
+        karta +=`<div class="novosti__karta">
+            <div class="novosti__slikaContainer">
+                <img loading="lazy" src="/FrontEnd/slike/${vest.slika}" alt="sipa.jpg">
+            </div>
+          <div class="novosti__desno">
+            <h5 class="novosti__h3">
+                  ${vest.naslov}
+            </h5>
+            <div class="novosti__tekstContainer">
+                <p class="novosti__text">${vest.duziOpis}</p>
+            </div>
+          </div>
+        </div>`
+        broj++;
+        }
+    }
+    if(broj === 0){
+        karta +=`<h5 class="novosti__h5">
+        Nema novih vesti!
+        </h5>`
+    }
+        novostiContainer.innerHTML = karta;
+}
+
+nabaviVesti().then(vesti => {
+    ispisiVesti(vesti);
 });
