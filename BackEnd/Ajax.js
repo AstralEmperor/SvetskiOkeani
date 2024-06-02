@@ -1,7 +1,7 @@
 
 // ajax za dobavljanje podataka za vesti iz JSON-a
 export async function nabaviVestiPocetna(){
-        const req = await fetch('/BackEnd/podatci/novostiPocetna.json',{
+        const req = await fetch('./BackEnd/podatci/novostiPocetna.json',{
                 method:"GET",
                 headers:{
                     'Content-Type':'application/json'
