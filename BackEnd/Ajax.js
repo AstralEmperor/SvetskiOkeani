@@ -1,7 +1,19 @@
 
 // ajax za dobavljanje podataka za vesti iz JSON-a
+export async function nabaviVestiPocetna(){
+        const req = await fetch('/BackEnd/podatci/novostiPocetna.json',{
+                method:"GET",
+                headers:{
+                    'Content-Type':'application/json'
+                }
+
+        })
+        const vesti = await req.json()
+        .catch(error => console.log(error))
+        return vesti;
+}
 export async function nabaviVesti(){
-        const req = await fetch('/BackEnd/podatci/novosti.json',{
+        const req = await fetch('../../../../BackEnd/podatci/novosti.json',{
                 method:"GET",
                 headers:{
                     'Content-Type':'application/json'
@@ -14,7 +26,7 @@ export async function nabaviVesti(){
 }
 // ajax za dobavljanje podataka za znamenitosti iz JSON-a
 export async function nabaviZnamenitosti(){
-        const req = await fetch('/BackEnd/podatci/znamenitosti.json',{
+        const req = await fetch('../../../../BackEnd/podatci/znamenitosti.json',{
                 method:"GET",
                 headers:{
                         'Content-Type':'application/json'

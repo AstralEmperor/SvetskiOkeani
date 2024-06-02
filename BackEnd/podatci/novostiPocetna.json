@@ -2,28 +2,28 @@
     "novosti":[
     {
         "naslov":"Više od 100 novih vrsta",
-        "slika":"../../../slike/sipa.jpg",
+        "slika":"./FrontEnd/src/slike/sipa.jpg",
         "opis":"Više od 100 novih vrsta pronađeno u okeanu blizu Čileanskih planina",
         "duziOpis":"Više od 100 novih vrsta pronađeno u okeanu blizu Čileanskih planina",
         "okean":"Tihi"
     },
     {
         "naslov":"Ostrvo đubreta",
-        "slika":"../../../slike/ostrvoDjubreta.webp",
+        "slika":"./FrontEnd/src/slike/ostrvoDjubreta.webp",
         "opis":"14 miliona tona plastike završava u okeanu svake godine predstavljaju veliku pretnju za okeansu ekologiju",
         "duziOpis":"14 miliona tona plastike završava u okeanu svake godine predstavljaju veliku pretnju za okeansu ekologiju",
         "okean":"Tihi"
     },
     {
         "naslov":"Lov na krabe",
-        "slika":"../../../slike/lovNaKrabe.jpg",
+        "slika":"./FrontEnd/src/slike/lovNaKrabe.jpg",
         "opis":"Lov na krabe u vodama uz obalu...",
         "duziOpis":"Lov na krabe u vodama uz obalu...",
         "okean":"Antarktik"
     },
     {
         "naslov":"Globalno zagrevanje",
-        "slika":"../../../slike/topljenjeLeda.webp",
+        "slika":"./FrontEnd/src/slike/topljenjeLeda.webp",
         "opis":"Topljenje leda na Arktiku se ubrzalo prethodnih godina stručnjaci nalažu",
         "duziOpis":"Topljenje leda na Arktiku se ubrzalo prethodnih godina stručnjaci nalažu",
         "okean":"Arktik"

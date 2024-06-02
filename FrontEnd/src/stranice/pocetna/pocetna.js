@@ -1,5 +1,5 @@
 //  Importi
-import { nabaviVesti } from "../../../../BackEnd/Ajax.js";
+import { nabaviVestiPocetna } from "../../../../BackEnd/Ajax.js";
 
 // const listing = document.querySelector('.title__slajder-list');
 const slajder = document.querySelector('.naslov__slajder');
@@ -105,7 +105,7 @@ async function ispisiVesti(vesti){
             ${vest.naslov}
             </h3>
             <div class="novosti__slikaContainer">
-                <img loading="lazy" src="./FrontEnd/slike/${vest.slika}" alt="sipa.jpg">
+                <img loading="lazy" src="${vest.slika}" alt="sipa.jpg">
             </div>
           <div class="novosti__donjiDeo">
             <div class="novosti__tekstContainer">
@@ -120,6 +120,6 @@ async function ispisiVesti(vesti){
         novostiContainer.innerHTML = karta;
 }
 
-nabaviVesti().then(vesti => {
+nabaviVestiPocetna().then(vesti => {
     ispisiVesti(vesti);
 });
