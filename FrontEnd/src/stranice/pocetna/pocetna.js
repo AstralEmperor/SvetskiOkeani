@@ -1,5 +1,5 @@
 //  Importi
-import { nabaviVestiPocetna } from "../../../../BackEnd/Ajax.js";
+import { nabaviVestiPocetna } from "./BackEnd/Ajax.js";
 
 // const listing = document.querySelector('.title__slajder-list');
 const slajder = document.querySelector('.naslov__slajder');

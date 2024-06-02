@@ -12,6 +12,7 @@ export async function nabaviVestiPocetna(){
         .catch(error => console.log(error))
         return vesti;
 }
+
 export async function nabaviVesti(){
         const req = await fetch('../../../../BackEnd/podatci/novosti.json',{
                 method:"GET",
