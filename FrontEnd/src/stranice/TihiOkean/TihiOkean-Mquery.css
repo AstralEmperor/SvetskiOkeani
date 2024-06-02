@@ -29,5 +29,8 @@
     .znamenitosti__karta{
         text-align:center;
     }
+    .novosti__slikaContainer > img{
+        min-width:20rem;
+    }
     
 }

@@ -3,20 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../../style.css">
+    <link rel="stylesheet" href="/style.css">
     <link id="font" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/fontNormalni.css">
     <link id="boje" rel="stylesheet" href="/FrontEnd/src/zajednicko/promenljive/paletaBoja1.css">
-    <link rel="stylesheet" href="./FrontEnd/src/zajednicko/navigacija/header.css">
-    <link rel="stylesheet" href="./FrontEnd/src/zajednicko/navigacija/headerMquery.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/header.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/navigacija/headerMquery.css">
+    <link rel="stylesheet" href="/FrontEnd/src/zajednicko/footer/footer.css">
+    <link rel="stylesheet" href="oNama.css">
+    <link rel="stylesheet" href="oNamaMquery.css">
     <title>Okeani</title>
 </head>
-<body>
-    <!--Section Abous Us-->
-<section class="oNama">
-    <div class="oNama__container container">
-        <div class="oNama__SlikaContainer">
-            <img loading="lazy" class="oNama__img" src="./FrontEnd/slike/Marko_K..jpg" alt="oNama.png">
+<body id="body">
+    <!--Navigation-->
+    <nav class="navigacija">
+        <div class="dodatneOpcije container">
+            <button id="promeniFont"><img src="/FrontEnd/slike/font.png"></button>
+            <button id="promeniPaletu"><img src="/FrontEnd/slike/svetlo-tamno.png"></button>
         </div>
+        <div class="navigacija__container container">
+        <button type="button" class="navigacija__dugme" title="hamburgerButton">
+            <span class="navigacija__spanLinija"></span>
+            <span class="navigacija__spanLinija"></span>
+            <span class="navigacija__spanLinija"></span>
+        </button>
+        <img class="navigacija__ikonica" src="/FrontEnd/slike/Ikonica.png" alt="icon.png">
+     <div class="navigacija__paket">
+        <ul class="navigacija__lista navigacija__sakrijNav">
+            <li class="navigacija__lista-li"><a class="navigacija__lista-link" href="/index.html">Početna</a></li>
+            <li class="navigacija__lista-li"><a class="navigacija__lista-link" href="#/">Okeani</a><img tabindex="0" aria-expanded ="false" tabindex="0" class="navigacija__link-dugme" src="/FrontEnd/slike/strelica-dole.png" alt="strelica-dole.png"></li>
+                <li class="sekundarnaNavigacija" style="display:none">
+                    <ul>
+                        <li class=""><a href="/FrontEnd/src/stranice/AtlantskiOkean/AtlantskiOkean.html">Atlantski okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/TihiOkean/TihiOkean.html">Tihi okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/IndijskiOkean/IndijskiOkean.html">Indijski okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/ArktickiOkean/ArktickiOkean.html">Arktički okean</a></li>
+                        <li class=""><a href="/FrontEnd/src/stranice/AntartickiOkean/AntartickiOkean.html">Antarktički okean</a></li>
+                    </ul>
+                </li>
+            <li class="navigacija__lista-li"><a class="navigacija__lista-link" href="/FrontEnd/src/stranice/NaseUsluge/usluge.html">Naše Usluge</a></li>
+            <li class="navigacija__lista-li"><a class="navigacija__lista-link" href="/FrontEnd/src/stranice/oNama/oNama.html">O Nama</a></li>
+            <li class="navigacija__lista-li"><a class="navigacija__lista-link" href="/FrontEnd/src/stranice/kontakt/kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+    <!--Section Abous Us-->
+    <section class="naslov">
+        <div class="naslov__img">
+            <img src="../../../slike/oNama-pozadina.jpg" alt="oNama-pozadina.jpg">
+        </div>  
+     <div class="naslov__container">
+        <div class="container"> 
+            <div class="naslov__textCont">
+                <p class="naslov__text">O nama</p>
+           </div>
+    </div>
+</div>
+</section>
+<section class="oNama">
+    <div class="oNama__sadrzaj container">
+            <div class="oNama__info">
+                <div class="oNama__image">
+                    <img src="../../../slike/Ikonica.png" alt="Ikonica.png">
+                </div>
+                <div class="oNama__textCont">
+                    <h3 class="oNama__naslov">KO SMO MI?</h3>
+                    <p>
+                        '<strong>Vast Universe</strong>' predstavlja široki kompleks firmi i udruženja, čiji je zajednički cilj poboljašanje razumevanja i saradnje između čoveka i prirode.
+                      Smatramo da ljudi nisu dovoljno upoznati sa čudima i misterijama prirode. Kroz naše sajtove i učestvovanje u raznim akcijama, nadamo se pokazati i približiti ljude majci zemlji. 
+                     </p>
+                     <p>
+                      Jedan od najvećih čuda prirode, su ogromne vodene površine koje nazivamo okeani. Sa veoma niskom stopom otkrivenosti, oni su veličanstveni, a često i zastrašujući.
+                      Nadamo se da ćete oskoristiti priliku koju vam pružamo za bolje upoznavanje sa tajnama okeana.<br>
+                      Na našem sajtu ćete uvek biti obavešteni najsvežijim informacijama i moćićete da indirektno učestvujete u našem donošenju odluka.
+                     </p>
+                     <p>
+                       Ukoliko vam se dopada naša stranica, i želite da nas podržite ili predložite nešto, kontaktirajte nas!
+                    </p>
+                </div>
+            </div>
     </div>
 </section>
 <footer class="footer">
@@ -28,5 +93,6 @@
         <a href="/FrontEnd/src/stranice/kontakt/kontakt.html">Kontakt</a> || <a href="#">Mapa sajta</a>
     </div>
 </div>
+<script src="/FrontEnd/src/zajednicko/navigacija/header.js"></script>
 </body>
 </html>

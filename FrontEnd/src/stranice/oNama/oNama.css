@@ -1,48 +1,73 @@
-.oNama{
-    min-height:65rem;
-    background-color:var(--lightblack);
-    color:var(--lightyellow);
-}
-
-.oNama__container{
-        display:flex;
-        padding-top:7rem;
-        gap:20%;
-}
+.naslov__img{
+        position:absolute;
+        width:100%;
+        height:80rem;
+        background-position:center;
+        object-fit:cover;
+      }
+      .naslov__img > img{
+        width:100%;
+        height:100%;
+      }
     
-.oNama__text-omotac{
-        margin-top:10rem;
-        width:40%;
-}
-
-.oNama__h2{
-        color:var(--blue);
-        font-size:50px;
-        margin-bottom:3rem;
-}
-
-.oNama__text{
-        color:var(--white);
-        font-size:3rem;
-        margin-bottom:3rem;
-}
-
-.oNama__ImgContainer{
-        width:40%;
-        height:500px;
-        overflow:hidden;
-        border-radius:30%;
-}      
-
-.oNama__img{
-        object-fit:contain;
-        mix-blend-mode: luminosity;
-        -webkit-filter: contrast(1.25);
-        filter: contrast(1.25);
+    .naslov__container{
+            background-color: rgba(0, 0, 0, 0.3);
+            width:100%;
+            height:80rem;
+            transition: 0.5s ease;
+    }
+    .naslov__textCont{
+            display:flex;
+            height:80rem;
+            flex-direction:column;
+            justify-content:center;
+    }
+    .naslov__text{
+            position:relative;
+            max-width:70rem; 
+            font-size:6rem;
+            line-height:68px;
+            letter-spacing:0.1em;
+            color:var(--bela);
+            margin-bottom:3rem;
+            border: 7.5px solid;
+            padding:1rem;
+            background-color:rgba(44, 96, 126,0.3) ;
+            border-image: linear-gradient(to right, rgba(44, 96, 126,0.8) 2.5%,transparent 10%, transparent 85%, rgba(51, 140, 192,0.4) 2.5%) 10% 1;
+    }
+    .oNama__glavni-naslov{
+        display:flex;
+        align-items:center;
+        font-size:var(--velicina-naslov);
+    }
+    .oNama__naslov{
+        display:flex;
+        flex-direction:column;
+        font-size:var(--h3Naslov-velicina);
+    }
+    .oNama__textCont{
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        width:50%;
+        line-height:2em;
+    }
+    .oNama__info{
+        display:flex;
+        align-items:center;
+        gap:2rem;
+        margin:0 auto;
+        padding-block:6rem;
+        text-align:left;
+        font-size:1.4rem;
+    }
+    .oNama__image{
+        width:25%;
+        height:100%;
+    }
+    .oNama__image > img{
         height:100%;
         width:100%;
-}
-.oNama__dugme{
-    background: linear-gradient(90deg, rgba(62,55,195,1) 0%, rgba(9,59,121,1) 0%, rgba(0,212,255,1) 100%);
-    color:var(--white);
-}
+        max-height:30rem;
+        filter: grayscale(100%);
+    }

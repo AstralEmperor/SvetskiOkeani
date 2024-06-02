@@ -120,6 +120,7 @@
 }
 .novosti__naslov{
     font-size:var(--h3Naslov-velicina);
+    margin-bottom:2rem;
 }
 .novosti__sveKarteContainer{
     display:flex;

@@ -1,24 +1,18 @@
 @media only screen and (max-width:768px){
-    .oNama__ImgContainer{
-        width:100%;
-    }
-    .oNama__text-wrap{
-        width:100%;
-    }
-    .oNama__container{
-        flex-direction:column;
-            gap:5rem;
-    }
-}
-@media only screen and (max-width:320px){
-    .oNama__ImgContainer{
-        width:100%;
-    }
-    .oNama__text-wrap{
-        width:100%;
-    }
+   
     .oNama__container{
         flex-direction:column;
         gap:5rem;
+    }
+    .oNama__info{
+        display:flex;
+        flex-direction:column;
+    }
+    .oNama__textCont{
+        width:100%;
+        text-align:center;
+    }
+    .oNama__image{
+        width:50%;
     }
 }

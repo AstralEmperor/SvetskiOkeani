@@ -31,11 +31,11 @@
         justify-content:space-between;
         align-items:center;
 }
-.navigacija__toggleBtn{
+.navigacija__dugme{
         display:none;
 }
 
-.navigacija__icon{
+.navigacija__ikonica{
         width:90px;
         height:80px;
 }
@@ -45,7 +45,7 @@
         margin-left:0.5rem;
         cursor: pointer;
 }
-.navigacija__list{
+.navigacija__lista{
         display:flex;
         color:var(--bela);
         margin:auto 0;
@@ -56,11 +56,11 @@
         gap:5rem;
 }
 
-.navigacija__list-item{
+.navigacija__lista-li{
             list-style:none;
 }
     
-.navigacija__wrap{
+.navigacija__paket{
         display:flex;
         align-items:center;
         width:max-content;

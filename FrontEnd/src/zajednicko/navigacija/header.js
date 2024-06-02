@@ -1,11 +1,11 @@
 //  Otvaranje i zatvaranje responzivne navigacije pritiskom na dugme
 function otvoriZatvoriNavigaciju(){
-    const navigacija = document.querySelector('.navigacija__list');
-    const hamburgerDugme = document.querySelector('.navigacija__toggleBtn');
+    const navigacija = document.querySelector('.navigacija__lista');
+    const hamburgerDugme = document.querySelector('.navigacija__dugme');
 
     hamburgerDugme.addEventListener('click', e =>{
         e.preventDefault();
-        navigacija.classList.toggle('navigacija__showNav');
+        navigacija.classList.toggle('navigacija__prikaziNav');
     });
 }
 otvoriZatvoriNavigaciju();

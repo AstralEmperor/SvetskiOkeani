@@ -47,12 +47,12 @@ label{
     width:max-content;
     text-align:left;
 }
-.logo-wrapper{
+.logo-paket{
     width:12rem;
     height:12rem;
     margin-bottom:2rem;
 }
-.logo-wrapper > img{
+.logo-paket > img{
     width: 100%;
     height:100%;
 }
