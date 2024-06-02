@@ -36,7 +36,7 @@ async function ispisiVesti(vesti){
         if(vest.okean === "Indijski"){
         karta +=`<div class="novosti__karta">
             <div class="novosti__slikaContainer">
-                <img loading="lazy" src="./FrontEnd/slike/${vest.slika}" alt="sipa.jpg">
+                <img loading="lazy" src="../../../slike/${vest.slika}" alt="sipa.jpg">
             </div>
           <div class="novosti__desno">
                 <h5 class="novosti__h5">

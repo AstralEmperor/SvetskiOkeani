@@ -104,7 +104,7 @@ async function ispisiVesti(vesti){
             ${vest.naslov}
             </h3>
             <div class="novosti__slikaContainer">
-                <img loading="lazy" src="./FrontEnd/slike/${vest.slika}" alt="sipa.jpg">
+                <img loading="lazy" src="../../../slike/${vest.slika}" alt="sipa.jpg">
             </div>
           <div class="novosti__donjiDeo">
             <div class="novosti__tekstContainer">
