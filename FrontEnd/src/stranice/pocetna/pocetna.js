@@ -3,6 +3,7 @@ import { nabaviVesti } from "../../../../BackEnd/Ajax.js";
 
 // const listing = document.querySelector('.title__slajder-list');
 const slajder = document.querySelector('.naslov__slajder');
+console.log(slajder)
 const slajdovi = Array.from(slajder.children);
 const dugmeProslo = document.querySelector('.naslov__dugme--nazad');
 const dugmeSledece = document.querySelector('.naslov__dugme--napred');
@@ -104,7 +105,7 @@ async function ispisiVesti(vesti){
             ${vest.naslov}
             </h3>
             <div class="novosti__slikaContainer">
-                <img loading="lazy" src="../../../slike/${vest.slika}" alt="sipa.jpg">
+                <img loading="lazy" src="./FrontEnd/slike/${vest.slika}" alt="sipa.jpg">
             </div>
           <div class="novosti__donjiDeo">
             <div class="novosti__tekstContainer">

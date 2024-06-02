@@ -2,19 +2,19 @@
     "atlanskiOkean":[
         {
            "naziv":"Groblje Titanika",
-           "slika":"./FrontEnd/slike/titanik.jpg",
+           "slika":"../../../slike/titanik.jpg",
            "alt":"titanik.jpg",
            "opis":"Konačno prebivalište legendarnog broda <em>Titanik</em>"
         },
         {
             "naziv":"Atlantski Put",
-            "slika":"./FrontEnd/slike/atlantski-put.jpg",
+            "slika":"../../../slike/atlantski-put.jpg",
             "alt":"atlantski-put.jpg",
             "opis":"Atlantski put je put dugačak 8.3km koji prolazi kroz arhipelag ostrva u Norveškoj."
          },
          {
             "naziv":"Bermudski Trougao",
-            "slika":"./FrontEnd/slike/bermudski-trougao.png",
+            "slika":"../../../slike/bermudski-trougao.png",
             "alt":"bermudski-trougao.png",
             "opis":"Bermudski trougao, takodje poznat kao Djavolji trougao, je urbana legenda severo-zapadnog Atlantika, gde je nestao veliki broj brodova i aviona."
          }
@@ -22,19 +22,19 @@
     "tihiOkean":[
          {
             "naziv":"Marijanski Rov",
-            "slika":"./FrontEnd/slike/MarijanskiRov.jpg",
+            "slika":"../../../slike/MarijanskiRov.jpg",
             "alt":"MarijanskiRov.jpg",
             "opis":"Marijanski Rov je ogromna uvala u tihom okeana, koja predstavlja najdublju tačku na svetu"
          },
          {
             "naziv":"Bolova Piramida",
-            "slika":"./FrontEnd/slike/BolovaPiramida.jpg",
+            "slika":"../../../slike/BolovaPiramida.jpg",
             "alt":"BolovaPiramida.jpg",
             "opis":"Erozijski ostatak vulkana, predstavlja najveći kameni toranj na svetu"
       },
       {
          "naziv":"Veliki Koralni Greben",
-         "slika":"./FrontEnd/slike/Veliki-koralni-greben.png",
+         "slika":"../../../slike/Veliki-koralni-greben.png",
          "alt":"Veliki-koralni-greben.png",
          "opis":"Najveći koralni greben na svetu, nalazi se u moru Korala"
       }
@@ -42,19 +42,19 @@
     "arktickiOkean":[
       {
            "naziv":"Polarna Svetlost",
-           "slika":"./FrontEnd/slike/polarnaSvetlost.jpg",
+           "slika":"../../../slike/polarnaSvetlost.jpg",
            "alt":"polarnaSvetlost.jpg",
            "opis":"Elektromagnetno polje zemlje u susretu sa sunčevim zracima pravi prelep pejzaž"
       },
       {
          "naziv":"Ledene Statue",
-         "slika":"./FrontEnd/slike/ledeneStatue.jpg",
+         "slika":"../../../slike/ledeneStatue.jpg",
          "alt":"ledeneStatue.jpg",
          "opis":"Ledene statue, koje su bile deo ledene mase.. plutaju mirno prema okeanu"
       },
       { 
          "naziv":"Litica ptica",
-         "slika":"./FrontEnd/slike/ostrvoPtica.jpg",
+         "slika":"../../../slike/ostrvoPtica.jpg",
          "alt":"ostrvoPtica.jpg",
          "opis":"Litica ptica, je ostrvo ptica koji se drugačije zove ostrvo princa Leopolda"
       }
@@ -62,19 +62,19 @@
    "indijskiOkean":[
      {
           "naziv":"Šume Mangrova",
-          "slika":"./FrontEnd/slike/sumeMangrova.webp",
+          "slika":"../../../slike/sumeMangrova.webp",
           "alt":"sumeMangrova.webp",
           "opis":"Šume Mangrova koje se nalaze u Indijskom okeanu..predstavljaju polovinu ukupnog broja Mangrova"
      },
      {
         "naziv":"Pomorski put svile",
-        "slika":"./FrontEnd/slike/pomorski-put-svile.jpg",
+        "slika":"../../../slike/pomorski-put-svile.jpg",
         "alt":"pomorski-put-svile.jpg",
         "opis":"Ovo je istoriski pomorski put koji se koristio radi prenosa svile"
      },
      { 
         "naziv":"Ostrvo Sveštenika",
-        "slika":"./FrontEnd/slike/Ostrvo-NusaPenida.jpg",
+        "slika":"../../../slike/Ostrvo-NusaPenida.jpg",
         "alt":"Ostrvo-NusaPenida.jpg",
         "opis":"Ostrvo sveštenika prestavlja litičasto ostrvo nastalo erozijom, sa originalnim nazivom Nusa Penida"
      }
@@ -82,7 +82,7 @@
   "antartickiOkean":[
     {
          "naziv":"Snežno Brdo",
-         "slika":"./FrontEnd/slike/carskiPingvini.webp",
+         "slika":"../../../slike/carskiPingvini.webp",
          "alt":"carskiPingvini.webp",
          "opis":"Ostrvo koje je poznato po velikim kolonijama pingvina. Od kojih su najpoznatiji Carski pingvini"
     }
