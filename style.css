@@ -20,6 +20,9 @@
   letter-spacing:0.15em;
   min-height:100vh;
 }
+html{
+  font-family: "FontStil";
+}
 
 body:focus-visible{
   outline-color:var(--specijalniHyperLink);
@@ -98,6 +101,30 @@ li:not(.obicnaLista){
   flex-direction:column;
   text-align:center;
   width:100%;
+}
+@font-face {
+  font-family: "FontStil";
+  src: url('./Fonts/Material-Design-Iconic-Font.woff');
+}
+@font-face {
+  font-family: 'font-ikonice';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Fonts/font-za-ikonice.woff2') format('woff2');
+}
+
+.font-ikonice{
+  font-family: 'font-ikonice';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
 }
 @media only screen and (max-width:1024px){
   .container{
