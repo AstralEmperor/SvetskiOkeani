@@ -19,12 +19,12 @@ function sekundarnaNavigacija(){
 
             if(navigacijaSekundarna.classList.contains('sekundarnaNavigacija') && navigacijaSekundarna.style.display === "none" && navigacijaSekundarna !== 0){
                 navigacijaSekundarna.style.display = "flex"
-                navDugmad[i].src ="../../../slike/strelica-gore.png"
+                navDugmad[i].src ="./FrontEnd/slike/strelica-gore.png"
                 navDugmad[i].setAttribute('aria-expanded','true');
 
             }else if(navigacijaSekundarna.classList.contains('sekundarnaNavigacija')){
                 navigacijaSekundarna.style.display = "none"
-                navDugmad[i].src ="../../../slike/strelica-dole.png"
+                navDugmad[i].src ="./FrontEnd/slike/strelica-dole.png"
                 navDugmad[i].setAttribute('aria-expanded','true');
             }
         })
@@ -40,13 +40,13 @@ function promeniFont(){
 
     dugmeZaFont.addEventListener('click', () => {
         if(!promenjenFont){
-            font.setAttribute("href", '../../zajednicko/promenljive/fontPovecani.css');
+            font.setAttribute("href", './FrontEnd/src/zajednicko/promenljive/fontPovecani.css');
             promenjenFont = true;
             console.log(font.getAttribute("href"));
             return
         }
         else if(promenjenFont){
-            font.setAttribute("href", '../../zajednicko/promenljive/fontNormalni.css');
+            font.setAttribute("href", './FrontEnd/src/zajednicko/promenljive/fontNormalni.css');
             promenjenFont = false;
             console.log(font.getAttribute("href"));
             return;
@@ -64,12 +64,12 @@ function promeniBoju(){
 
     dugmeZaBoju.addEventListener('click', () => {
         if(!promenjeneBoje){
-            boje.setAttribute("href", '../../zajednicko/promenljive/paletaBoja2.css');
+            boje.setAttribute("href", './FrontEnd/src/zajednicko/promenljive/paletaBoja2.css');
             promenjeneBoje = true;
             return
         }
         else if(promenjeneBoje){
-            boje.setAttribute("href", '../../zajednicko/promenljive/paletaBoja1.css');
+            boje.setAttribute("href", './FrontEnd/src/zajednicko/promenljive/paletaBoja1.css');
             promenjeneBoje = false;
             return;
         }
