@@ -1,94 +1,94 @@
 //  Importi
 import { nabaviVesti } from "../../../../BackEnd/Ajax.js";
 
-// const listing = document.querySelector('.title__carousel-list');
-const carousel = document.querySelector('.naslov__carousel');
-const slides = Array.from(carousel.children);
-const btnPrev = document.querySelector('.naslov__dugme--nazad');
-const btnNext = document.querySelector('.naslov__dugme--napred');
-const dotsNav = document.querySelector('.naslov__ul');
-const dots = Array.from(dotsNav.children);
+// const listing = document.querySelector('.title__slajder-list');
+const slajder = document.querySelector('.naslov__slajder');
+const slajdovi = Array.from(slajder.children);
+const dugmeProslo = document.querySelector('.naslov__dugme--nazad');
+const dugmeSledece = document.querySelector('.naslov__dugme--napred');
+const tackeNavigacija = document.querySelector('.naslov__ul');
+const tacke = Array.from(tackeNavigacija.children);
 
-const spanNext = document.querySelector('.strelica-napred');
-const spanPrev = document.querySelector('.strelica-nazad');
+const spanSledeci = document.querySelector('.strelica-napred');
+const spanProsli = document.querySelector('.strelica-nazad');
 
-const promeniPozicijuProzora = (slide, index) => {
-    slide.style.left = 100 * index + '%';
+const promeniPozicijuProzora = (slajd, index) => {
+    slajd.style.left = 100 * index + '%';
 }
-// slides.forEach((slide, index) =>{
+// slajdovi.forEach((slide, index) =>{
 //     slide.style.left = 100 * index + '%';
 // });
-slides.forEach(promeniPozicijuProzora);
-//When i click left,move slides to the left
+slajdovi.forEach(promeniPozicijuProzora);
+//When i click left,move slajdovi to the left
 //when 
-const pomeriProzor = (carousel, currentSlide, targetSlide) => {
-    carousel.style.transform ='translateX(-' + targetSlide.style.left; + ')';
-    currentSlide.classList.remove('trenutni-slajd');
-    targetSlide.classList.add('trenutni-slajd');
+const pomeriProzor = (slajder, trenutniSlajd, ciljniSlajder) => {
+    slajder.style.transform ='translateX(-' + ciljniSlajder.style.left; + ')';
+    trenutniSlajd.classList.remove('trenutni-slajd');
+    ciljniSlajder.classList.add('trenutni-slajd');
 }
-const azurirajTacke = (currentDot, targetDot) => {
-    currentDot.classList.remove('trenutni-slajd');
-    targetDot.classList.add('trenutni-slajd');
+const azurirajTacke = (trenutnaTacka, ciljnaTacka) => {
+    trenutnaTacka.classList.remove('trenutni-slajd');
+    ciljnaTacka.classList.add('trenutni-slajd');
 }
-const sakrijPrikaziStrelice = (slides, btnPrev, btnNext, spanPrev,spanNext,targetIndex)=>{
-    if(targetIndex === 0){
-        btnPrev.classList.add('je-sakriveno');
-        btnNext.classList.remove('je-sakriveno');
-        spanPrev.classList.add('je-sakriveno');
-        spanNext.classList.remove('je-sakriveno');
+const sakrijPrikaziStrelice = (slajdovi, dugmeProslo, dugmeSledece, spanProsli,spanSledeci,ciljaniIndex)=>{
+    if(ciljaniIndex === 0){
+        dugmeProslo.classList.add('je-sakriveno');
+        dugmeSledece.classList.remove('je-sakriveno');
+        spanProsli.classList.add('je-sakriveno');
+        spanSledeci.classList.remove('je-sakriveno');
         
-    }else if(targetIndex === slides.length - 1){
-        btnPrev.classList.remove('je-sakriveno');
-        btnNext.classList.add('je-sakriveno');
-        spanPrev.classList.remove('je-sakriveno');
-        spanNext.classList.add('je-sakriveno');
+    }else if(ciljaniIndex === slajdovi.length - 1){
+        dugmeProslo.classList.remove('je-sakriveno');
+        dugmeSledece.classList.add('je-sakriveno');
+        spanProsli.classList.remove('je-sakriveno');
+        spanSledeci.classList.add('je-sakriveno');
     }else{
-        btnPrev.classList.remove('je-sakriveno');
-        btnNext.classList.remove('je-sakriveno');
-        spanPrev.classList.remove('je-sakriveno');
-        spanNext.classList.remove('je-sakriveno');
+        dugmeProslo.classList.remove('je-sakriveno');
+        dugmeSledece.classList.remove('je-sakriveno');
+        spanProsli.classList.remove('je-sakriveno');
+        spanSledeci.classList.remove('je-sakriveno');
     }
 }
 
 // dogadjaj promeranja slika u desno, nakon pritiska na dugme
-btnNext.addEventListener('click', e =>{
-    const currentSlide = carousel.querySelector('.trenutni-slajd');
-    const nextSlide = currentSlide.nextElementSibling;
-    const currentDot = dotsNav.querySelector('.trenutni-slajd');
-    const nextDot = currentDot.nextElementSibling;
-    const nextIndex = slides.findIndex(slide => slide === nextSlide);
+dugmeSledece.addEventListener('click', e =>{
+    const trenutniSlajd = slajder.querySelector('.trenutni-slajd');
+    const sledeciSlajd = trenutniSlajd.nextElementSibling;
+    const trenutnaTacka = tackeNavigacija.querySelector('.trenutni-slajd');
+    const sledecaTacka = trenutnaTacka.nextElementSibling;
+    const sledeciIndex = slajdovi.findIndex(slide => slide === sledeciSlajd);
 
-    azurirajTacke(currentDot, nextDot);
-    pomeriProzor(carousel, currentSlide, nextSlide);
-    sakrijPrikaziStrelice(slides, btnPrev, btnNext, spanPrev,spanNext,nextIndex);
+    azurirajTacke(trenutnaTacka, sledecaTacka);
+    pomeriProzor(slajder, trenutniSlajd, sledeciSlajd);
+    sakrijPrikaziStrelice(slajdovi, dugmeProslo, dugmeSledece, spanProsli,spanSledeci,sledeciIndex);
 })
 
 // dogadjaj promeranja slika u levo, nakon pritiska na dugme
-btnPrev.addEventListener('click', e =>{
-    const currentSlide = carousel.querySelector('.trenutni-slajd');
-    const prevSlide = currentSlide.previousElementSibling;
-    const currentDot = dotsNav.querySelector('.trenutni-slajd');
-    const prevDot = currentDot.previousElementSibling;
-    const prevIndex = slides.findIndex(slide => slide === prevSlide);
+dugmeProslo.addEventListener('click', e =>{
+    const trenutniSlajd = slajder.querySelector('.trenutni-slajd');
+    const predhodniSlajd = trenutniSlajd.previousElementSibling;
+    const trenutnaTacka = tackeNavigacija.querySelector('.trenutni-slajd');
+    const prethodnaTacka = trenutnaTacka.previousElementSibling;
+    const prethodniIndex = slajdovi.findIndex(slide => slide === predhodniSlajd);
 
-    azurirajTacke(currentDot, prevDot);
-    pomeriProzor(carousel, currentSlide, prevSlide);
-    sakrijPrikaziStrelice(slides, btnPrev, btnNext, spanPrev,spanNext,prevIndex);
+    azurirajTacke(trenutnaTacka, prethodnaTacka);
+    pomeriProzor(slajder, trenutniSlajd, predhodniSlajd);
+    sakrijPrikaziStrelice(slajdovi, dugmeProslo, dugmeSledece, spanProsli,spanSledeci,prethodniIndex);
 })
 
-dotsNav.addEventListener('click', e => {
-    const targetDot = e.target.closest('dugme');
+tackeNavigacija.addEventListener('click', e => {
+    const ciljnaTacka = e.target.closest('dugme');
 
-    if (!targetDot) return;
+    if (!ciljnaTacka) return;
     
-    const currentSlide = carousel.querySelector('.trenutni-slajd');
-    const currentDot = dotsNav.querySelector('.trenutni-slajd');
-    const targetIndex = dots.findIndex(dot => dot === targetDot);
-    const targetSlide = slides[targetIndex];
+    const trenutniSlajd = slajder.querySelector('.trenutni-slajd');
+    const trenutnaTacka = tackeNavigacija.querySelector('.trenutni-slajd');
+    const ciljaniIndex = tacke.findIndex(dot => dot === ciljnaTacka);
+    const ciljniSlajder = slajdovi[ciljaniIndex];
 
-    azurirajTacke(currentDot, targetDot);
-    pomeriProzor(carousel, currentSlide, targetSlide);
-    sakrijPrikaziStrelice(slides, btnPrev, btnNext, spanPrev,spanNext,targetIndex);
+    azurirajTacke(trenutnaTacka, ciljnaTacka);
+    pomeriProzor(slajder, trenutniSlajd, ciljniSlajder);
+    sakrijPrikaziStrelice(slajdovi, dugmeProslo, dugmeSledece, spanProsli,spanSledeci,ciljaniIndex);
 })
 
 
