@@ -56,19 +56,19 @@
     <div class="kontakt__inputPoljaILabel">
         <div class="kontakt__inputContainer">
             <label for="Ime">Ime*</label>
-            <input name="Ime" id="ime" type="text" pattern="[A-Za-z]{1,20}" maxlength="20" placeholder="Ime" required>
+            <input name="Ime" id="ime" type="text" pattern="[A-Za-z]{1,20}" maxlength="20" placeholder="Ime" required  oninvalid="this.setCustomValidity('Molimo vas unesite 1 do 20 karaktera')" oninput="setCustomValidity('')">
         </div>
         <div class="kontakt__inputContainer">
             <label for="Prezime">Prezime*</label>
-            <input name="Prezime" id="prezime" type="text" pattern="[A-Za-z]{1,20}" maxlength="20" placeholder="Prezime" required>
+            <input name="Prezime" id="prezime" type="text" pattern="[A-Za-z]{1,20}" maxlength="20" placeholder="Prezime" required  oninvalid="this.setCustomValidity('Molimo vas unesite 1 do 20 karaktera')" oninput="setCustomValidity('')">
         </div>
         <div class="kontakt__inputContainer">
             <label for="Email">Email*</label>
-            <input name="Email" id="email" type="email" placeholder="Email adresa" required>
+            <input name="Email" id="email" type="email" placeholder="Email adresa" required  oninvalid="this.setCustomValidity('Molimo vas unesite ispravnu Email adresu')" oninput="setCustomValidity('')">
         </div>
         <div class="kontakt__inputContainer kontakt__inputContainer--poruka">
             <label for="Poruka">Poruka*</label>
-            <textarea id="poruka" name="Poruka" required placeholder="Ostavite nam poruku"></textarea>
+            <textarea id="poruka" name="Poruka" required placeholder="Ostavite nam poruku" pattern="[A-Za-z]{1,1000}" oninvalid="this.setCustomValidity('Molimo vas unesite komentar')" oninput="setCustomValidity('')"></textarea>
         </div>
     </div>
         <button type="submit" id="formaDugme" class="dugme">Pošalji</button>

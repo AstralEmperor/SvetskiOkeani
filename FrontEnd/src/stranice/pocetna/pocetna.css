@@ -74,7 +74,7 @@
 .naslov__text{
         position:relative;
         max-width:70rem; 
-        font-size:6rem;
+        font-size:var(--velicina-naslov);
         line-height:68px;
         letter-spacing:0.2em;
         color:var(--bela);

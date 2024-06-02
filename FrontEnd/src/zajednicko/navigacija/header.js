@@ -77,10 +77,3 @@ function promeniBoju(){
     })
 }
 promeniBoju();
-
-function snimiCookie(){
-    myCookies['_font'] = font.getAttribute('href');
-    myCookies['_boje'] = boje.getAttribute('href');
-
- 
-}
